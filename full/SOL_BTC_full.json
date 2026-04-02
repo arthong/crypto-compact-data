@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-04-02T14:07:59.130896",
-  "generated_at_local": "2026-04-02 14:07:59 KST",
+  "timestamp": "2026-04-02T14:11:49.919394",
+  "generated_at_local": "2026-04-02 14:11:49 KST",
   "candle_close_time": "2026-04-02 14:00 KST",
   "exchange": "binance",
   "market_type": "futures",
@@ -11,10 +11,10 @@
   "_note": "1시간봉 완성 시점 자동 생성. 세력의 흔적 전체 데이터.",
   "assets": {
     "SOLUSDT": {
-      "price": 78.99,
-      "change_24h_pct": -5.24,
-      "funding_rate": -0.00023592,
-      "funding_rate_pct": -0.023592000000000002,
+      "price": 78.74,
+      "change_24h_pct": -5.55,
+      "funding_rate": -0.00023784,
+      "funding_rate_pct": -0.023784,
       "next_funding_time": 1775116800,
       "open_interest": {
         "current_usd": 772455711.0,
@@ -152,88 +152,88 @@
               "ratio": 1.71
             }
           ],
-          "market_cap_usd": 45211709179,
+          "market_cap_usd": 45220343713,
           "open_interest_usd": 772455711.0,
           "data_interval": "1h",
           "status": "success",
-          "timestamp": 1775106378
+          "timestamp": 1775106630
         }
       },
       "cvd": {
         "futures": {
-          "value_usd": 2093545.79,
-          "million": 2.09,
-          "sma": -0.91,
-          "above_sma": true,
+          "value_usd": -2614703.44,
+          "million": -2.61,
+          "sma": -0.98,
+          "above_sma": false,
           "aggregated": {
             "status": "success",
-            "cvd_percent": 24.22,
-            "latest_cvd": 2093545.79,
-            "latest_cvd_million": 2.09,
-            "cvd_sma": -0.91,
-            "timestamp": "2026-04-02T14:06:59.522370"
+            "cvd_percent": -17.96,
+            "latest_cvd": -2614703.44,
+            "latest_cvd_million": -2.61,
+            "cvd_sma": -0.98,
+            "timestamp": "2026-04-02T14:11:15.007278"
           }
         },
         "spot": {
-          "cvd_pct": 3.23,
-          "buy_pct": 51.6,
-          "sell_pct": 48.4
+          "cvd_pct": 2.54,
+          "buy_pct": 51.3,
+          "sell_pct": 48.7
         },
         "comparison": {
           "status": "success",
-          "spot_cvd_percent": 3.23,
-          "futures_cvd_percent": 24.22,
-          "divergence": -20.99,
+          "spot_cvd_percent": 2.54,
+          "futures_cvd_percent": -17.96,
+          "divergence": 20.5,
           "confidence": "low",
-          "timestamp": "2026-04-02T14:06:59.522403"
+          "timestamp": "2026-04-02T14:11:15.007305"
         },
         "enhanced": {
           "status": "success",
-          "cvd_million": 2.09,
-          "cvd_sma": -0.91,
+          "cvd_million": -2.61,
+          "cvd_sma": -0.98,
           "buy_sell_pressure": {
-            "buy_ratio": 62.11,
-            "sell_ratio": 37.89,
-            "dominant": "BUY"
+            "buy_ratio": 41.02,
+            "sell_ratio": 58.98,
+            "dominant": "SELL"
           },
           "divergences": [],
           "combined_oi_cvd_signal": null,
           "sma_position": {
-            "position": "ABOVE"
+            "position": "BELOW"
           },
           "price_change_pct": 0,
           "oi_change_pct": 0.05
         }
       },
       "taker_ratio": {
-        "buy_pct": 62.11,
-        "sell_pct": 37.89,
-        "buy_vol_usd": 5369575.0,
-        "sell_vol_usd": 3276029.0
+        "buy_pct": 41.02,
+        "sell_pct": 58.98,
+        "buy_vol_usd": 5973167.0,
+        "sell_vol_usd": 8587870.0
       },
       "liquidation": {
         "symbol": "SOL",
-        "1h_long_usd": 248612.0,
-        "1h_short_usd": 3565.0,
-        "4h_long_usd": 8380557.0,
-        "4h_short_usd": 166102.0,
-        "12h_long_usd": 16863162.0,
+        "1h_long_usd": 236038.0,
+        "1h_short_usd": 1.5804,
+        "4h_long_usd": 8384128.0,
+        "4h_short_usd": 109625.0,
+        "12h_long_usd": 16851008.0,
         "12h_short_usd": 572327.0,
-        "24h_long_usd": 18272816.0,
-        "24h_short_usd": 6688890.0,
+        "24h_long_usd": 18275727.0,
+        "24h_short_usd": 6688016.0,
         "status": "success",
-        "total_liquidation_12h": 17435488.0,
+        "total_liquidation_12h": 17423334.0,
         "long_ratio": 96.72,
         "short_ratio": 3.28,
         "_liquidation_note": "12h/24h_long_usd=해당 기간 롱 포지션 강제청산 금액(USD). short_usd=숏 청산 금액. 롱 청산이 많으면 하락 중 롱이 밀린것, 숏 청산이 많으면 상승 중 숏이 밀린것. long_ratio/short_ratio=전체 청산 중 비중(%)",
-        "timestamp": 1775106348,
+        "timestamp": 1775106603,
         "source": "coinglass",
         "data_interval": "12h"
       },
       "whale_reference": {
         "status": "success",
         "vwap": 83.34,
-        "distance_pct": -5.24,
+        "distance_pct": -5.52,
         "oi_spike_count": 8,
         "usable": true,
         "source_timestamp": null,
@@ -241,126 +241,108 @@
         "_cache_note": null
       },
       "orderbook": {
-        "buy_nearest": 78.95,
-        "sell_nearest": 79.0,
+        "buy_nearest": 78.68,
+        "sell_nearest": 78.72,
         "top_buy": [
-          78.95,
-          78.92,
-          78.68
+          78.56,
+          78.62,
+          78.64
         ],
         "top_sell": [
-          79.07,
-          79.01,
-          79.02
+          78.75,
+          78.86,
+          78.72
         ],
-        "imbalance_ratio": 1.412
+        "imbalance_ratio": 1.364
       },
       "relative_strength_vs_btc": {
         "1h": {
-          "ratio": 2.14,
-          "coin_change_pct": -13.7,
-          "btc_change_pct": -6.42,
+          "ratio": 2.15,
+          "coin_change_pct": -13.94,
+          "btc_change_pct": -6.5,
           "sync_score": 0.0
         },
         "4h": {
-          "ratio": 3.7,
-          "coin_change_pct": -8.97,
-          "btc_change_pct": -2.42,
+          "ratio": 3.68,
+          "coin_change_pct": -9.24,
+          "btc_change_pct": -2.51,
           "sync_score": 0.0
         },
         "1d": {
           "ratio": 1.53,
-          "coin_change_pct": -61.15,
-          "btc_change_pct": -40.0,
+          "coin_change_pct": -61.26,
+          "btc_change_pct": -40.05,
           "sync_score": 0.47
         },
         "1w": {
-          "ratio": -0.98,
-          "coin_change_pct": -42.29,
-          "btc_change_pct": 43.07,
+          "ratio": -0.99,
+          "coin_change_pct": -42.46,
+          "btc_change_pct": 42.95,
           "sync_score": 0.0
         }
       },
       "whale_ratio": {
         "symbol": "SOL/USDT",
         "exchange": "binance",
-        "top_long_short_ratio": 3.94,
-        "top_long_account": 79.76,
-        "top_short_account": 20.24,
+        "top_long_short_ratio": 3.95,
+        "top_long_account": 79.79,
+        "top_short_account": 20.21,
         "global_long_short_ratio": 3.69,
         "global_long_account": 78.68,
         "global_short_account": 21.32,
         "hourly_history": [
           {
-            "timestamp": 1775102700,
-            "top_long_pct": 79.76,
-            "top_short_pct": 20.24,
-            "top_long_short_ratio": 3.94,
-            "global_long_pct": 78.68,
-            "global_short_pct": 21.32,
-            "global_long_short_ratio": 3.69
-          },
-          {
-            "timestamp": 1775103000,
-            "top_long_pct": 79.78,
-            "top_short_pct": 20.22,
-            "top_long_short_ratio": 3.95,
-            "global_long_pct": 78.69,
-            "global_short_pct": 21.31,
-            "global_long_short_ratio": 3.69
-          },
-          {
             "timestamp": 1775103300,
             "top_long_pct": 79.79,
             "top_short_pct": 20.21,
             "top_long_short_ratio": 3.95,
-            "global_long_pct": 78.87,
-            "global_short_pct": 21.13,
-            "global_long_short_ratio": 3.73
+            "global_long_pct": 78.68,
+            "global_short_pct": 21.32,
+            "global_long_short_ratio": 3.69
           },
           {
             "timestamp": 1775103600,
             "top_long_pct": 79.77,
             "top_short_pct": 20.23,
             "top_long_short_ratio": 3.94,
-            "global_long_pct": 78.83,
-            "global_short_pct": 21.17,
-            "global_long_short_ratio": 3.72
+            "global_long_pct": 78.69,
+            "global_short_pct": 21.31,
+            "global_long_short_ratio": 3.69
           },
           {
             "timestamp": 1775103900,
             "top_long_pct": 79.77,
             "top_short_pct": 20.23,
             "top_long_short_ratio": 3.94,
-            "global_long_pct": 78.82,
-            "global_short_pct": 21.18,
-            "global_long_short_ratio": 3.72
+            "global_long_pct": 78.87,
+            "global_short_pct": 21.13,
+            "global_long_short_ratio": 3.73
           },
           {
             "timestamp": 1775104200,
             "top_long_pct": 79.76,
             "top_short_pct": 20.24,
             "top_long_short_ratio": 3.94,
-            "global_long_pct": 78.85,
-            "global_short_pct": 21.15,
-            "global_long_short_ratio": 3.73
+            "global_long_pct": 78.83,
+            "global_short_pct": 21.17,
+            "global_long_short_ratio": 3.72
           },
           {
             "timestamp": 1775104500,
             "top_long_pct": 79.8,
             "top_short_pct": 20.2,
             "top_long_short_ratio": 3.95,
-            "global_long_pct": 78.84,
-            "global_short_pct": 21.16,
-            "global_long_short_ratio": 3.73
+            "global_long_pct": 78.82,
+            "global_short_pct": 21.18,
+            "global_long_short_ratio": 3.72
           },
           {
             "timestamp": 1775104800,
             "top_long_pct": 79.77,
             "top_short_pct": 20.23,
             "top_long_short_ratio": 3.94,
-            "global_long_pct": 78.84,
-            "global_short_pct": 21.16,
+            "global_long_pct": 78.85,
+            "global_short_pct": 21.15,
             "global_long_short_ratio": 3.73
           },
           {
@@ -368,30 +350,48 @@
             "top_long_pct": 79.74,
             "top_short_pct": 20.26,
             "top_long_short_ratio": 3.94,
-            "global_long_pct": 78.89,
-            "global_short_pct": 21.11,
-            "global_long_short_ratio": 3.74
+            "global_long_pct": 78.84,
+            "global_short_pct": 21.16,
+            "global_long_short_ratio": 3.73
           },
           {
             "timestamp": 1775105400,
             "top_long_pct": 79.79,
             "top_short_pct": 20.21,
             "top_long_short_ratio": 3.95,
-            "global_long_pct": 78.92,
-            "global_short_pct": 21.08,
-            "global_long_short_ratio": 3.74
+            "global_long_pct": 78.84,
+            "global_short_pct": 21.16,
+            "global_long_short_ratio": 3.73
           },
           {
             "timestamp": 1775105700,
             "top_long_pct": 79.82,
             "top_short_pct": 20.18,
             "top_long_short_ratio": 3.96,
+            "global_long_pct": 78.89,
+            "global_short_pct": 21.11,
+            "global_long_short_ratio": 3.74
+          },
+          {
+            "timestamp": 1775106000,
+            "top_long_pct": 79.86,
+            "top_short_pct": 20.14,
+            "top_long_short_ratio": 3.97,
+            "global_long_pct": 78.92,
+            "global_short_pct": 21.08,
+            "global_long_short_ratio": 3.74
+          },
+          {
+            "timestamp": 1775106300,
+            "top_long_pct": 79.81,
+            "top_short_pct": 20.19,
+            "top_long_short_ratio": 3.95,
             "global_long_pct": 78.98,
             "global_short_pct": 21.02,
             "global_long_short_ratio": 3.76
           },
           {
-            "timestamp": 1775106000,
+            "timestamp": 1775106600,
             "top_long_pct": 79.86,
             "top_short_pct": 20.14,
             "top_long_short_ratio": 3.97,
@@ -403,26 +403,26 @@
         "_ratio_note": "top_long_short_ratio=상위 트레이더(세력) 롱/숏 비율. 1.5면 롱이 숏의 1.5배. global=전체 계정(개미 포함) 비율. 세력과 개미 방향이 같으면 강한 컨센서스, 반대면 한쪽이 함정에 빠질수있음. hourly_history=최근 1시간 5분봉 12개 추이",
         "data_interval": "5m",
         "status": "success",
-        "timestamp": 1775106378,
+        "timestamp": 1775106630,
         "reference_exchange": null
       },
       "premium_flow": {
         "status": "success",
-        "coinbase_premium": 0.13,
+        "coinbase_premium": 0.04,
         "upbit_premium": null,
         "is_inversion": false,
-        "timestamp": "2026-04-02T14:06:23.431727"
+        "timestamp": "2026-04-02T14:10:35.465569"
       },
       "energy": {
         "delta_price_pct": 0,
         "delta_oi_pct": 0,
-        "cvd_sma": -0.91
+        "cvd_sma": -0.98
       },
       "support_resistance": {
         "symbol": "SOL/USDT",
         "timeframe": "15m, 30m, 1h, 4h, 12h, 1d, 1w, 1M",
         "exchange": "binance",
-        "current_price": 78.99,
+        "current_price": 78.74,
         "resistance_groups": [
           {
             "avg_price": 82.22,
@@ -437,7 +437,7 @@
               "POC (거래량 최대), MA20, 피보 61.8%",
               "거래량 급증, 급등락 지점, 피보 50%, MA50, MA20",
               "피보 50%, 고점 패턴",
-              "거래량 급증, 급등락 지점, VAL (가치영역 하단)",
+              "거래량 급증, VAL (가치영역 하단)",
               "거래량 급증, 급등락 지점, 피보 61.8%"
             ],
             "ma_metadata": null,
@@ -563,22 +563,17 @@
         ],
         "support_groups": [
           {
-            "avg_price": 78.76,
+            "avg_price": 78.51,
             "timeframes": [
-              "12h",
               "15m",
-              "1d",
               "1h",
-              "30m",
-              "4h"
+              "30m"
             ],
-            "total_weight": 15.0,
+            "total_weight": 4.5,
             "reasons": [
-              "거래량 급증, 급등락 지점, 저점 패턴",
-              "저점 패턴, 거래량 급증, 급등락 지점",
-              "저점 패턴",
               "저점 패턴, VAL (가치영역 하단)",
-              "VAL (가치영역 하단), 저점 패턴"
+              "VAL (가치영역 하단), 저점 패턴",
+              "저점 패턴"
             ],
             "ma_metadata": null,
             "volume_metadata": null,
@@ -658,11 +653,11 @@
             "4h"
           ],
           "oi_summary": {
-            "oi_change_pct": 1.56,
+            "oi_change_pct": 1.98,
             "confidence": null,
-            "timestamp": "2026-04-02T14:06:23.206670"
+            "timestamp": "2026-04-02T14:10:34.798736"
           },
-          "timestamp": 1775106383,
+          "timestamp": 1775106634,
           "signal_status": "active"
         },
         "mid_term_phase": {
@@ -673,11 +668,11 @@
             "2d"
           ],
           "oi_summary": {
-            "oi_change_pct": 3.09,
+            "oi_change_pct": 3.19,
             "confidence": null,
-            "timestamp": "2026-04-02T14:06:23.206737"
+            "timestamp": "2026-04-02T14:10:34.798750"
           },
-          "timestamp": 1775106383,
+          "timestamp": 1775106634,
           "signal_status": "active"
         },
         "long_term_phase": {
@@ -687,11 +682,11 @@
             "1M"
           ],
           "oi_summary": {
-            "oi_change_pct": 2.98,
+            "oi_change_pct": 3.33,
             "confidence": null,
-            "timestamp": "2026-04-02T14:06:23.206761"
+            "timestamp": "2026-04-02T14:10:34.798757"
           },
-          "timestamp": 1775106383,
+          "timestamp": 1775106634,
           "signal_status": "active"
         },
         "alignment_confidence": 95,
@@ -699,25 +694,17 @@
           "15m": {
             "confidence": 0.21,
             "oi_signal": {
-              "price_change": 0.25,
-              "oi_change_pct": 0.02,
-              "current_oi": 9797327.04,
+              "price_change": -0.01,
+              "oi_change_pct": 0.24,
+              "current_oi": 9828747.59,
               "oi_history": [
-                {
-                  "timestamp": 1775020200000,
-                  "open_oi": 9514059.49,
-                  "close_oi": 9511580.93,
-                  "oi_change": -2478.56,
-                  "oi_change_pct": -0.03,
-                  "oi_acceleration": 0
-                },
                 {
                   "timestamp": 1775020500000,
                   "open_oi": 9511580.93,
                   "close_oi": 9506465.32,
                   "oi_change": -5115.61,
                   "oi_change_pct": -0.05,
-                  "oi_acceleration": -0.03
+                  "oi_acceleration": 0
                 },
                 {
                   "timestamp": 1775020800000,
@@ -2998,11 +2985,19 @@
                   "oi_change": -9061.0,
                   "oi_change_pct": -0.09,
                   "oi_acceleration": -0.11
+                },
+                {
+                  "timestamp": 1775106300000,
+                  "open_oi": 9797327.04,
+                  "close_oi": 9828747.59,
+                  "oi_change": 31420.55,
+                  "oi_change_pct": 0.32,
+                  "oi_acceleration": 0.41
                 }
               ],
               "oi_momentum": {
-                "acceleration": 0.03,
-                "state": "stable"
+                "acceleration": 0.1,
+                "state": "trending"
               },
               "status": "success"
             },
@@ -3018,25 +3013,17 @@
           "1h": {
             "confidence": 0.38,
             "oi_signal": {
-              "price_change": 0.27,
-              "oi_change_pct": 0.14,
-              "current_oi": 9797327.04,
+              "price_change": -0.01,
+              "oi_change_pct": 0.55,
+              "current_oi": 9828747.59,
               "oi_history": [
-                {
-                  "timestamp": 1775020200000,
-                  "open_oi": 9514059.49,
-                  "close_oi": 9511580.93,
-                  "oi_change": -2478.56,
-                  "oi_change_pct": -0.03,
-                  "oi_acceleration": 0
-                },
                 {
                   "timestamp": 1775020500000,
                   "open_oi": 9511580.93,
                   "close_oi": 9506465.32,
                   "oi_change": -5115.61,
                   "oi_change_pct": -0.05,
-                  "oi_acceleration": -0.03
+                  "oi_acceleration": 0
                 },
                 {
                   "timestamp": 1775020800000,
@@ -5317,10 +5304,18 @@
                   "oi_change": -9061.0,
                   "oi_change_pct": -0.09,
                   "oi_acceleration": -0.11
+                },
+                {
+                  "timestamp": 1775106300000,
+                  "open_oi": 9797327.04,
+                  "close_oi": 9828747.59,
+                  "oi_change": 31420.55,
+                  "oi_change_pct": 0.32,
+                  "oi_acceleration": 0.41
                 }
               ],
               "oi_momentum": {
-                "acceleration": -1.27,
+                "acceleration": -0.88,
                 "state": "decelerating"
               },
               "status": "success"
@@ -5337,25 +5332,17 @@
           "2h": {
             "confidence": 1.0,
             "oi_signal": {
-              "price_change": 0.06,
-              "oi_change_pct": 1.56,
-              "current_oi": 9797327.04,
+              "price_change": -0.2,
+              "oi_change_pct": 1.98,
+              "current_oi": 9828747.59,
               "oi_history": [
-                {
-                  "timestamp": 1775020200000,
-                  "open_oi": 9514059.49,
-                  "close_oi": 9511580.93,
-                  "oi_change": -2478.56,
-                  "oi_change_pct": -0.03,
-                  "oi_acceleration": 0
-                },
                 {
                   "timestamp": 1775020500000,
                   "open_oi": 9511580.93,
                   "close_oi": 9506465.32,
                   "oi_change": -5115.61,
                   "oi_change_pct": -0.05,
-                  "oi_acceleration": -0.03
+                  "oi_acceleration": 0
                 },
                 {
                   "timestamp": 1775020800000,
@@ -7636,10 +7623,18 @@
                   "oi_change": -9061.0,
                   "oi_change_pct": -0.09,
                   "oi_acceleration": -0.11
+                },
+                {
+                  "timestamp": 1775106300000,
+                  "open_oi": 9797327.04,
+                  "close_oi": 9828747.59,
+                  "oi_change": 31420.55,
+                  "oi_change_pct": 0.32,
+                  "oi_acceleration": 0.41
                 }
               ],
               "oi_momentum": {
-                "acceleration": -1.27,
+                "acceleration": -0.94,
                 "state": "decelerating"
               },
               "status": "success"
@@ -7656,25 +7651,17 @@
           "4h": {
             "confidence": 0.84,
             "oi_signal": {
-              "price_change": 0.05,
-              "oi_change_pct": 4.44,
-              "current_oi": 9797327.04,
+              "price_change": -0.25,
+              "oi_change_pct": 4.95,
+              "current_oi": 9828747.59,
               "oi_history": [
-                {
-                  "timestamp": 1775020200000,
-                  "open_oi": 9514059.49,
-                  "close_oi": 9511580.93,
-                  "oi_change": -2478.56,
-                  "oi_change_pct": -0.03,
-                  "oi_acceleration": 0
-                },
                 {
                   "timestamp": 1775020500000,
                   "open_oi": 9511580.93,
                   "close_oi": 9506465.32,
                   "oi_change": -5115.61,
                   "oi_change_pct": -0.05,
-                  "oi_acceleration": -0.03
+                  "oi_acceleration": 0
                 },
                 {
                   "timestamp": 1775020800000,
@@ -9955,10 +9942,18 @@
                   "oi_change": -9061.0,
                   "oi_change_pct": -0.09,
                   "oi_acceleration": -0.11
+                },
+                {
+                  "timestamp": 1775106300000,
+                  "open_oi": 9797327.04,
+                  "close_oi": 9828747.59,
+                  "oi_change": 31420.55,
+                  "oi_change_pct": 0.32,
+                  "oi_acceleration": 0.41
                 }
               ],
               "oi_momentum": {
-                "acceleration": 5.78,
+                "acceleration": 6.27,
                 "state": "accelerating"
               },
               "status": "success"
@@ -9975,25 +9970,17 @@
           "12h": {
             "confidence": 0.24,
             "oi_signal": {
-              "price_change": -2.67,
-              "oi_change_pct": 3.09,
-              "current_oi": 9797327.04,
+              "price_change": -2.96,
+              "oi_change_pct": 3.19,
+              "current_oi": 9828747.59,
               "oi_history": [
-                {
-                  "timestamp": 1775020200000,
-                  "open_oi": 9514059.49,
-                  "close_oi": 9511580.93,
-                  "oi_change": -2478.56,
-                  "oi_change_pct": -0.03,
-                  "oi_acceleration": 0
-                },
                 {
                   "timestamp": 1775020500000,
                   "open_oi": 9511580.93,
                   "close_oi": 9506465.32,
                   "oi_change": -5115.61,
                   "oi_change_pct": -0.05,
-                  "oi_acceleration": -0.03
+                  "oi_acceleration": 0
                 },
                 {
                   "timestamp": 1775020800000,
@@ -12274,6 +12261,14 @@
                   "oi_change": -9061.0,
                   "oi_change_pct": -0.09,
                   "oi_acceleration": -0.11
+                },
+                {
+                  "timestamp": 1775106300000,
+                  "open_oi": 9797327.04,
+                  "close_oi": 9828747.59,
+                  "oi_change": 31420.55,
+                  "oi_change_pct": 0.32,
+                  "oi_acceleration": 0.41
                 }
               ],
               "oi_momentum": {
@@ -12287,25 +12282,17 @@
           "1d": {
             "confidence": 1.0,
             "oi_signal": {
-              "price_change": -2.65,
-              "oi_change_pct": 3.09,
-              "current_oi": 9797327.04,
+              "price_change": -2.93,
+              "oi_change_pct": 3.19,
+              "current_oi": 9828747.59,
               "oi_history": [
-                {
-                  "timestamp": 1775020200000,
-                  "open_oi": 9514059.49,
-                  "close_oi": 9511580.93,
-                  "oi_change": -2478.56,
-                  "oi_change_pct": -0.03,
-                  "oi_acceleration": 0
-                },
                 {
                   "timestamp": 1775020500000,
                   "open_oi": 9511580.93,
                   "close_oi": 9506465.32,
                   "oi_change": -5115.61,
                   "oi_change_pct": -0.05,
-                  "oi_acceleration": -0.03
+                  "oi_acceleration": 0
                 },
                 {
                   "timestamp": 1775020800000,
@@ -14586,6 +14573,14 @@
                   "oi_change": -9061.0,
                   "oi_change_pct": -0.09,
                   "oi_acceleration": -0.11
+                },
+                {
+                  "timestamp": 1775106300000,
+                  "open_oi": 9797327.04,
+                  "close_oi": 9828747.59,
+                  "oi_change": 31420.55,
+                  "oi_change_pct": 0.32,
+                  "oi_acceleration": 0.41
                 }
               ],
               "oi_momentum": {
@@ -14599,25 +14594,17 @@
           "2d": {
             "confidence": 1.0,
             "oi_signal": {
-              "price_change": -5.0,
-              "oi_change_pct": 0.14,
-              "current_oi": 9797327.04,
+              "price_change": -5.32,
+              "oi_change_pct": 0.55,
+              "current_oi": 9828747.59,
               "oi_history": [
-                {
-                  "timestamp": 1775020200000,
-                  "open_oi": 9514059.49,
-                  "close_oi": 9511580.93,
-                  "oi_change": -2478.56,
-                  "oi_change_pct": -0.03,
-                  "oi_acceleration": 0
-                },
                 {
                   "timestamp": 1775020500000,
                   "open_oi": 9511580.93,
                   "close_oi": 9506465.32,
                   "oi_change": -5115.61,
                   "oi_change_pct": -0.05,
-                  "oi_acceleration": -0.03
+                  "oi_acceleration": 0
                 },
                 {
                   "timestamp": 1775020800000,
@@ -16898,10 +16885,18 @@
                   "oi_change": -9061.0,
                   "oi_change_pct": -0.09,
                   "oi_acceleration": -0.11
+                },
+                {
+                  "timestamp": 1775106300000,
+                  "open_oi": 9797327.04,
+                  "close_oi": 9828747.59,
+                  "oi_change": 31420.55,
+                  "oi_change_pct": 0.32,
+                  "oi_acceleration": 0.41
                 }
               ],
               "oi_momentum": {
-                "acceleration": -1.27,
+                "acceleration": -0.88,
                 "state": "decelerating"
               },
               "status": "success"
@@ -16911,25 +16906,17 @@
           "1w": {
             "confidence": 1.0,
             "oi_signal": {
-              "price_change": -2.91,
-              "oi_change_pct": 2.98,
-              "current_oi": 9797327.04,
+              "price_change": -3.2,
+              "oi_change_pct": 3.33,
+              "current_oi": 9828747.59,
               "oi_history": [
-                {
-                  "timestamp": 1775020200000,
-                  "open_oi": 9514059.49,
-                  "close_oi": 9511580.93,
-                  "oi_change": -2478.56,
-                  "oi_change_pct": -0.03,
-                  "oi_acceleration": 0
-                },
                 {
                   "timestamp": 1775020500000,
                   "open_oi": 9511580.93,
                   "close_oi": 9506465.32,
                   "oi_change": -5115.61,
                   "oi_change_pct": -0.05,
-                  "oi_acceleration": -0.03
+                  "oi_acceleration": 0
                 },
                 {
                   "timestamp": 1775020800000,
@@ -19210,6 +19197,14 @@
                   "oi_change": -9061.0,
                   "oi_change_pct": -0.09,
                   "oi_acceleration": -0.11
+                },
+                {
+                  "timestamp": 1775106300000,
+                  "open_oi": 9797327.04,
+                  "close_oi": 9828747.59,
+                  "oi_change": 31420.55,
+                  "oi_change_pct": 0.32,
+                  "oi_acceleration": 0.41
                 }
               ],
               "oi_momentum": {
@@ -19224,31 +19219,23 @@
               "range_low": 75.57,
               "range_midpoint": 86.61,
               "range_width_pct": 29.22,
-              "current_position_pct": 15.5
+              "current_position_pct": 14.4
             }
           },
           "1M": {
             "confidence": 1.0,
             "oi_signal": {
-              "price_change": -5.03,
-              "oi_change_pct": 2.98,
-              "current_oi": 9797327.04,
+              "price_change": -5.3,
+              "oi_change_pct": 3.33,
+              "current_oi": 9828747.59,
               "oi_history": [
-                {
-                  "timestamp": 1775020200000,
-                  "open_oi": 9514059.49,
-                  "close_oi": 9511580.93,
-                  "oi_change": -2478.56,
-                  "oi_change_pct": -0.03,
-                  "oi_acceleration": 0
-                },
                 {
                   "timestamp": 1775020500000,
                   "open_oi": 9511580.93,
                   "close_oi": 9506465.32,
                   "oi_change": -5115.61,
                   "oi_change_pct": -0.05,
-                  "oi_acceleration": -0.03
+                  "oi_acceleration": 0
                 },
                 {
                   "timestamp": 1775020800000,
@@ -21529,6 +21516,14 @@
                   "oi_change": -9061.0,
                   "oi_change_pct": -0.09,
                   "oi_acceleration": -0.11
+                },
+                {
+                  "timestamp": 1775106300000,
+                  "open_oi": 9797327.04,
+                  "close_oi": 9828747.59,
+                  "oi_change": 31420.55,
+                  "oi_change_pct": 0.32,
+                  "oi_acceleration": 0.41
                 }
               ],
               "oi_momentum": {
@@ -21540,49 +21535,49 @@
             "bb_position": "below_middle"
           }
         },
-        "timestamp": 1775106383
+        "timestamp": 1775106634
       },
       "whale_advanced_data": {
         "taker_volume": {
           "symbol": "SOL/USDT",
-          "taker_buy_volume": 5369574.51,
-          "taker_sell_volume": 3276028.72,
-          "taker_buy_sell_ratio": 1.64,
-          "buy_vol_usd": 5369575.0,
-          "sell_vol_usd": 3276029.0,
-          "total_volume": 8645603.23,
-          "buy_ratio": 62.11,
-          "sell_ratio": 37.89,
-          "cvd": 2093545.79,
-          "cvd_million": 2.09,
-          "cvd_sma": -0.91,
+          "taker_buy_volume": 5973166.79,
+          "taker_sell_volume": 8587870.23,
+          "taker_buy_sell_ratio": 0.7,
+          "buy_vol_usd": 5973167.0,
+          "sell_vol_usd": 8587870.0,
+          "total_volume": 14561037.02,
+          "buy_ratio": 41.02,
+          "sell_ratio": 58.98,
+          "cvd": -2614703.44,
+          "cvd_million": -2.61,
+          "cvd_sma": -0.98,
           "status": "success",
-          "timestamp": 1775106353
+          "timestamp": 1775106628
         },
         "advanced_ratio": {
           "symbol": "SOL/USDT",
           "top_trader_long_short_ratio_accounts": 3.97,
-          "top_trader_long_short_ratio_positions": 1.24,
-          "global_long_short_ratio": 3.76,
-          "gap": 2.5162,
+          "top_trader_long_short_ratio_positions": 1.23,
+          "global_long_short_ratio": 3.75,
+          "gap": 2.5168,
           "whale_bias": "LONG",
           "retail_bias": "LONG",
           "divergence_signal": "SHORT_BIAS",
           "trap_type": "BULL_TRAP",
           "status": "success",
-          "timestamp": 1775106383
+          "timestamp": 1775106632
         },
         "liquidation_heatmap": {
           "symbol": "SOL/USDT",
           "totals_12h": {
             "short_usd": 572327.0,
-            "long_usd": 16863162.0
+            "long_usd": 16851008.0
           },
           "data_source": "coinglass_coin_list",
           "data_interval": "12h",
           "status": "limited",
           "note": "Hobby 플랜: /liquidation-map 사용 불가. 가격대별 데이터는 /api/liquidation-stream 참고",
-          "timestamp": 1775106359
+          "timestamp": 1775106609
         },
         "open_interest": {
           "symbol": "SOL/USDT",
@@ -21598,7 +21593,7 @@
           "_oi_note": "current_oi_usd=현재 미결제약정 총액(USD). 시장에 열려있는 선물 포지션 총 규모. oi_change_1h/24h_pct=변동률(%). OI증가=신규 포지션 진입, OI감소=포지션 청산/종료. oi_momentum.acceleration=OI 변화의 가속도(양수면 진입 가속, 음수면 둔화)",
           "data_interval": "1h",
           "status": "success",
-          "timestamp": 1775106374
+          "timestamp": 1775106623
         },
         "oi_market_cap_ratio": {
           "symbol": "SOL/USDT",
@@ -21725,56 +21720,48 @@
               "ratio": 1.71
             }
           ],
-          "market_cap_usd": 45211709179,
+          "market_cap_usd": 45220343713,
           "open_interest_usd": 772455711.0,
           "data_interval": "1h",
           "status": "success",
-          "timestamp": 1775106378
+          "timestamp": 1775106630
         }
       },
       "timeframes": {
         "15m": {
-          "close": 78.97,
-          "rsi": 36.3,
-          "price_change_pct": -4.49,
-          "volume": 342122.08,
-          "volume_change_pct": -56.72,
+          "close": 78.76,
+          "rsi": 32.3,
+          "price_change_pct": -4.74,
+          "volume": 342832.72,
+          "volume_change_pct": -54.66,
           "ma50": 81.49,
           "above_ma50": false,
-          "ema7": 78.92,
-          "ema25": 79.74,
+          "ema7": 78.87,
+          "ema25": 79.72,
           "ema99": 81.73,
           "ema200": 82.26,
-          "ma20": 79.39,
+          "ma20": 79.38,
           "bb": {
-            "upper": 81.41,
+            "upper": 81.42,
             "upper_mid": 80.4,
-            "mid": 79.39,
-            "lower_mid": 78.38,
-            "lower": 77.36,
-            "width": 5.1043,
-            "position": 0.3967
+            "mid": 79.38,
+            "lower_mid": 78.36,
+            "lower": 77.34,
+            "width": 5.1334,
+            "position": 0.3483
           },
           "oi_signal": {
-            "price_change": 0.25,
-            "oi_change_pct": 0.02,
-            "current_oi": 9797327.04,
+            "price_change": -0.01,
+            "oi_change_pct": 0.24,
+            "current_oi": 9828747.59,
             "oi_history": [
-              {
-                "timestamp": 1775020200000,
-                "open_oi": 9514059.49,
-                "close_oi": 9511580.93,
-                "oi_change": -2478.56,
-                "oi_change_pct": -0.03,
-                "oi_acceleration": 0
-              },
               {
                 "timestamp": 1775020500000,
                 "open_oi": 9511580.93,
                 "close_oi": 9506465.32,
                 "oi_change": -5115.61,
                 "oi_change_pct": -0.05,
-                "oi_acceleration": -0.03
+                "oi_acceleration": 0
               },
               {
                 "timestamp": 1775020800000,
@@ -24055,11 +24042,19 @@
                 "oi_change": -9061.0,
                 "oi_change_pct": -0.09,
                 "oi_acceleration": -0.11
+              },
+              {
+                "timestamp": 1775106300000,
+                "open_oi": 9797327.04,
+                "close_oi": 9828747.59,
+                "oi_change": 31420.55,
+                "oi_change_pct": 0.32,
+                "oi_acceleration": 0.41
               }
             ],
             "oi_momentum": {
-              "acceleration": 0.03,
-              "state": "stable"
+              "acceleration": 0.1,
+              "state": "trending"
             },
             "status": "success"
           },
@@ -24094,56 +24089,48 @@
               "volume": 346711.45
             },
             {
-              "close": 78.97,
+              "close": 78.76,
               "high": 79.05,
-              "low": 78.77,
-              "volume": 109708.23
+              "low": 78.63,
+              "volume": 258941.51
             }
           ],
           "timestamp": 1775106000000
         },
         "30m": {
-          "close": 78.97,
-          "rsi": 31.7,
-          "price_change_pct": -5.24,
-          "volume": 556969.97,
-          "volume_change_pct": 37.9,
+          "close": 78.76,
+          "rsi": 29.1,
+          "price_change_pct": -5.5,
+          "volume": 557680.77,
+          "volume_change_pct": 39.93,
           "ma50": 82.47,
           "above_ma50": false,
-          "ema7": 79.14,
-          "ema25": 80.72,
-          "ema99": 82.25,
+          "ema7": 79.08,
+          "ema25": 80.7,
+          "ema99": 82.24,
           "ema200": 82.58,
-          "ma20": 80.59,
+          "ma20": 80.58,
           "bb": {
-            "upper": 83.84,
-            "upper_mid": 82.21,
-            "mid": 80.59,
-            "lower_mid": 78.97,
-            "lower": 77.35,
-            "width": 8.0421,
-            "position": 0.2494
+            "upper": 83.85,
+            "upper_mid": 82.22,
+            "mid": 80.58,
+            "lower_mid": 78.95,
+            "lower": 77.32,
+            "width": 8.1013,
+            "position": 0.2206
           },
           "oi_signal": {
-            "price_change": 0.25,
-            "oi_change_pct": 0.01,
-            "current_oi": 9797327.04,
+            "price_change": -0.01,
+            "oi_change_pct": 0.39,
+            "current_oi": 9828747.59,
             "oi_history": [
-              {
-                "timestamp": 1775020200000,
-                "open_oi": 9514059.49,
-                "close_oi": 9511580.93,
-                "oi_change": -2478.56,
-                "oi_change_pct": -0.03,
-                "oi_acceleration": 0
-              },
               {
                 "timestamp": 1775020500000,
                 "open_oi": 9511580.93,
                 "close_oi": 9506465.32,
                 "oi_change": -5115.61,
                 "oi_change_pct": -0.05,
-                "oi_acceleration": -0.03
+                "oi_acceleration": 0
               },
               {
                 "timestamp": 1775020800000,
@@ -26424,11 +26411,19 @@
                 "oi_change": -9061.0,
                 "oi_change_pct": -0.09,
                 "oi_acceleration": -0.11
+              },
+              {
+                "timestamp": 1775106300000,
+                "open_oi": 9797327.04,
+                "close_oi": 9828747.59,
+                "oi_change": 31420.55,
+                "oi_change_pct": 0.32,
+                "oi_acceleration": 0.41
               }
             ],
             "oi_momentum": {
-              "acceleration": -0.13,
-              "state": "stable"
+              "acceleration": 0.24,
+              "state": "reversing"
             },
             "status": "success"
           },
@@ -26439,7 +26434,7 @@
             "ema_alignment": "bearish"
           },
           "flags": {
-            "rsi_oversold": false,
+            "rsi_oversold": true,
             "rsi_overbought": false,
             "rsi_neutral": false,
             "near_upper_band": false,
@@ -26463,56 +26458,48 @@
               "volume": 535405.45
             },
             {
-              "close": 78.97,
+              "close": 78.76,
               "high": 79.05,
-              "low": 78.77,
-              "volume": 109673.73
+              "low": 78.63,
+              "volume": 258941.51
             }
           ],
           "timestamp": 1775106000000
         },
         "1h": {
-          "close": 78.98,
-          "rsi": 31.1,
-          "price_change_pct": -13.7,
-          "volume": 1029273.88,
-          "volume_change_pct": 6.15,
+          "close": 78.76,
+          "rsi": 29.1,
+          "price_change_pct": -13.94,
+          "volume": 1029984.71,
+          "volume_change_pct": 7.09,
           "ma50": 82.34,
           "above_ma50": false,
-          "ema7": 79.67,
-          "ema25": 81.54,
+          "ema7": 79.62,
+          "ema25": 81.52,
           "ema99": 82.86,
           "ema200": 84.48,
-          "ma20": 81.95,
+          "ma20": 81.94,
           "bb": {
-            "upper": 86.04,
-            "upper_mid": 83.99,
-            "mid": 81.95,
-            "lower_mid": 79.91,
-            "lower": 77.87,
-            "width": 9.9627,
-            "position": 0.1359
+            "upper": 86.06,
+            "upper_mid": 84.0,
+            "mid": 81.94,
+            "lower_mid": 79.88,
+            "lower": 77.82,
+            "width": 10.0489,
+            "position": 0.1136
           },
           "oi_signal": {
-            "price_change": 0.27,
-            "oi_change_pct": 0.14,
-            "current_oi": 9797327.04,
+            "price_change": -0.01,
+            "oi_change_pct": 0.55,
+            "current_oi": 9828747.59,
             "oi_history": [
-              {
-                "timestamp": 1775020200000,
-                "open_oi": 9514059.49,
-                "close_oi": 9511580.93,
-                "oi_change": -2478.56,
-                "oi_change_pct": -0.03,
-                "oi_acceleration": 0
-              },
               {
                 "timestamp": 1775020500000,
                 "open_oi": 9511580.93,
                 "close_oi": 9506465.32,
                 "oi_change": -5115.61,
                 "oi_change_pct": -0.05,
-                "oi_acceleration": -0.03
+                "oi_acceleration": 0
               },
               {
                 "timestamp": 1775020800000,
@@ -28793,10 +28780,18 @@
                 "oi_change": -9061.0,
                 "oi_change_pct": -0.09,
                 "oi_acceleration": -0.11
+              },
+              {
+                "timestamp": 1775106300000,
+                "open_oi": 9797327.04,
+                "close_oi": 9828747.59,
+                "oi_change": 31420.55,
+                "oi_change_pct": 0.32,
+                "oi_acceleration": 0.41
               }
             ],
             "oi_momentum": {
-              "acceleration": -1.27,
+              "acceleration": -0.88,
               "state": "decelerating"
             },
             "status": "success"
@@ -28808,7 +28803,7 @@
             "ema_alignment": "bearish"
           },
           "flags": {
-            "rsi_oversold": false,
+            "rsi_oversold": true,
             "rsi_overbought": false,
             "rsi_neutral": false,
             "near_upper_band": false,
@@ -28832,56 +28827,48 @@
               "volume": 1186117.92
             },
             {
-              "close": 78.98,
+              "close": 78.76,
               "high": 79.05,
-              "low": 78.77,
-              "volume": 109667.01
+              "low": 78.63,
+              "volume": 258941.51
             }
           ],
           "timestamp": 1775106000000
         },
         "2h": {
-          "close": 78.99,
-          "rsi": 32.9,
-          "price_change_pct": -10.38,
-          "volume": 1992046.15,
-          "volume_change_pct": 52.89,
-          "ma50": 82.57,
+          "close": 78.78,
+          "rsi": 32.1,
+          "price_change_pct": -10.62,
+          "volume": 1992759.63,
+          "volume_change_pct": 53.59,
+          "ma50": 82.56,
           "above_ma50": false,
-          "ema7": 80.56,
-          "ema25": 82.08,
+          "ema7": 80.51,
+          "ema25": 82.07,
           "ema99": 84.18,
-          "ema200": 85.96,
-          "ma20": 82.35,
+          "ema200": 85.95,
+          "ma20": 82.34,
           "bb": {
-            "upper": 85.7,
-            "upper_mid": 84.03,
-            "mid": 82.35,
-            "lower_mid": 80.67,
-            "lower": 78.99,
-            "width": 8.1461,
-            "position": -0.0007
+            "upper": 85.74,
+            "upper_mid": 84.04,
+            "mid": 82.34,
+            "lower_mid": 80.64,
+            "lower": 78.94,
+            "width": 8.2571,
+            "position": -0.0233
           },
           "oi_signal": {
-            "price_change": 0.06,
-            "oi_change_pct": 1.56,
-            "current_oi": 9797327.04,
+            "price_change": -0.2,
+            "oi_change_pct": 1.98,
+            "current_oi": 9828747.59,
             "oi_history": [
-              {
-                "timestamp": 1775020200000,
-                "open_oi": 9514059.49,
-                "close_oi": 9511580.93,
-                "oi_change": -2478.56,
-                "oi_change_pct": -0.03,
-                "oi_acceleration": 0
-              },
               {
                 "timestamp": 1775020500000,
                 "open_oi": 9511580.93,
                 "close_oi": 9506465.32,
                 "oi_change": -5115.61,
                 "oi_change_pct": -0.05,
-                "oi_acceleration": -0.03
+                "oi_acceleration": 0
               },
               {
                 "timestamp": 1775020800000,
@@ -31162,10 +31149,18 @@
                 "oi_change": -9061.0,
                 "oi_change_pct": -0.09,
                 "oi_acceleration": -0.11
+              },
+              {
+                "timestamp": 1775106300000,
+                "open_oi": 9797327.04,
+                "close_oi": 9828747.59,
+                "oi_change": 31420.55,
+                "oi_change_pct": 0.32,
+                "oi_acceleration": 0.41
               }
             ],
             "oi_momentum": {
-              "acceleration": -1.27,
+              "acceleration": -0.94,
               "state": "decelerating"
             },
             "status": "success"
@@ -31201,56 +31196,48 @@
               "volume": 3649239.43
             },
             {
-              "close": 78.99,
+              "close": 78.78,
               "high": 79.15,
-              "low": 78.68,
-              "volume": 1296167.08
+              "low": 78.63,
+              "volume": 1445998.63
             }
           ],
           "timestamp": 1775102400000
         },
         "4h": {
-          "close": 78.98,
-          "rsi": 33.4,
-          "price_change_pct": -8.97,
-          "volume": 4257893.51,
-          "volume_change_pct": 0.71,
+          "close": 78.74,
+          "rsi": 32.6,
+          "price_change_pct": -9.24,
+          "volume": 4258599.19,
+          "volume_change_pct": 1.01,
           "ma50": 84.5,
           "above_ma50": false,
-          "ema7": 81.12,
-          "ema25": 82.6,
+          "ema7": 81.06,
+          "ema25": 82.58,
           "ema99": 85.63,
           "ema200": 86.5,
-          "ma20": 82.58,
+          "ma20": 82.57,
           "bb": {
-            "upper": 85.83,
-            "upper_mid": 84.2,
-            "mid": 82.58,
-            "lower_mid": 80.96,
-            "lower": 79.34,
-            "width": 7.848,
-            "position": -0.0561
+            "upper": 85.87,
+            "upper_mid": 84.22,
+            "mid": 82.57,
+            "lower_mid": 80.92,
+            "lower": 79.27,
+            "width": 7.9883,
+            "position": -0.081
           },
           "oi_signal": {
-            "price_change": 0.05,
-            "oi_change_pct": 4.44,
-            "current_oi": 9797327.04,
+            "price_change": -0.25,
+            "oi_change_pct": 4.95,
+            "current_oi": 9828747.59,
             "oi_history": [
-              {
-                "timestamp": 1775020200000,
-                "open_oi": 9514059.49,
-                "close_oi": 9511580.93,
-                "oi_change": -2478.56,
-                "oi_change_pct": -0.03,
-                "oi_acceleration": 0
-              },
               {
                 "timestamp": 1775020500000,
                 "open_oi": 9511580.93,
                 "close_oi": 9506465.32,
                 "oi_change": -5115.61,
                 "oi_change_pct": -0.05,
-                "oi_acceleration": -0.03
+                "oi_acceleration": 0
               },
               {
                 "timestamp": 1775020800000,
@@ -33531,10 +33518,18 @@
                 "oi_change": -9061.0,
                 "oi_change_pct": -0.09,
                 "oi_acceleration": -0.11
+              },
+              {
+                "timestamp": 1775106300000,
+                "open_oi": 9797327.04,
+                "close_oi": 9828747.59,
+                "oi_change": 31420.55,
+                "oi_change_pct": 0.32,
+                "oi_acceleration": 0.41
               }
             ],
             "oi_momentum": {
-              "acceleration": 5.78,
+              "acceleration": 6.27,
               "state": "accelerating"
             },
             "status": "success"
@@ -33570,56 +33565,48 @@
               "volume": 9284031.12
             },
             {
-              "close": 78.98,
+              "close": 78.74,
               "high": 79.15,
-              "low": 78.68,
-              "volume": 1296369.77
+              "low": 78.63,
+              "volume": 1444561.15
             }
           ],
           "timestamp": 1775102400000
         },
         "12h": {
-          "close": 78.97,
-          "rsi": 35.7,
-          "price_change_pct": -33.94,
-          "volume": 12605731.94,
-          "volume_change_pct": 3.71,
+          "close": 78.74,
+          "rsi": 35.3,
+          "price_change_pct": -34.13,
+          "volume": 12606440.37,
+          "volume_change_pct": 3.84,
           "ma50": 87.18,
           "above_ma50": false,
-          "ema7": 81.61,
-          "ema25": 84.61,
-          "ema99": 89.86,
+          "ema7": 81.56,
+          "ema25": 84.59,
+          "ema99": 89.85,
           "ema200": 98.08,
-          "ma20": 85.08,
+          "ma20": 85.07,
           "bb": {
-            "upper": 93.74,
-            "upper_mid": 89.41,
-            "mid": 85.08,
-            "lower_mid": 80.75,
-            "lower": 76.41,
-            "width": 20.3678,
-            "position": 0.1475
+            "upper": 93.77,
+            "upper_mid": 89.42,
+            "mid": 85.07,
+            "lower_mid": 80.72,
+            "lower": 76.37,
+            "width": 20.4521,
+            "position": 0.1363
           },
           "oi_signal": {
-            "price_change": -2.67,
-            "oi_change_pct": 3.09,
-            "current_oi": 9797327.04,
+            "price_change": -2.96,
+            "oi_change_pct": 3.19,
+            "current_oi": 9828747.59,
             "oi_history": [
-              {
-                "timestamp": 1775020200000,
-                "open_oi": 9514059.49,
-                "close_oi": 9511580.93,
-                "oi_change": -2478.56,
-                "oi_change_pct": -0.03,
-                "oi_acceleration": 0
-              },
               {
                 "timestamp": 1775020500000,
                 "open_oi": 9511580.93,
                 "close_oi": 9506465.32,
                 "oi_change": -5115.61,
                 "oi_change_pct": -0.05,
-                "oi_acceleration": -0.03
+                "oi_acceleration": 0
               },
               {
                 "timestamp": 1775020800000,
@@ -35900,6 +35887,14 @@
                 "oi_change": -9061.0,
                 "oi_change_pct": -0.09,
                 "oi_acceleration": -0.11
+              },
+              {
+                "timestamp": 1775106300000,
+                "open_oi": 9797327.04,
+                "close_oi": 9828747.59,
+                "oi_change": 31420.55,
+                "oi_change_pct": 0.32,
+                "oi_acceleration": 0.41
               }
             ],
             "oi_momentum": {
@@ -35939,56 +35934,48 @@
               "volume": 21146444.56
             },
             {
-              "close": 78.97,
+              "close": 78.74,
               "high": 81.72,
               "low": 78.22,
-              "volume": 10579822.77
+              "volume": 10728592.27
             }
           ],
           "timestamp": 1775088000000
         },
         "1d": {
-          "close": 78.99,
-          "rsi": 37.1,
-          "price_change_pct": -61.15,
-          "volume": 25621359.8,
-          "volume_change_pct": 6.71,
-          "ma50": 85.71,
+          "close": 78.76,
+          "rsi": 36.8,
+          "price_change_pct": -61.26,
+          "volume": 25622068.48,
+          "volume_change_pct": 6.78,
+          "ma50": 85.7,
           "above_ma50": false,
-          "ema7": 82.27,
-          "ema25": 85.78,
+          "ema7": 82.21,
+          "ema25": 85.76,
           "ema99": 102.99,
           "ema200": 127.75,
-          "ma20": 87.29,
+          "ma20": 87.27,
           "bb": {
-            "upper": 97.03,
-            "upper_mid": 92.16,
-            "mid": 87.29,
-            "lower_mid": 82.41,
-            "lower": 77.54,
-            "width": 22.3266,
-            "position": 0.0743
+            "upper": 97.06,
+            "upper_mid": 92.17,
+            "mid": 87.27,
+            "lower_mid": 82.38,
+            "lower": 77.49,
+            "width": 22.425,
+            "position": 0.065
           },
           "oi_signal": {
-            "price_change": -2.65,
-            "oi_change_pct": 3.09,
-            "current_oi": 9797327.04,
+            "price_change": -2.93,
+            "oi_change_pct": 3.19,
+            "current_oi": 9828747.59,
             "oi_history": [
-              {
-                "timestamp": 1775020200000,
-                "open_oi": 9514059.49,
-                "close_oi": 9511580.93,
-                "oi_change": -2478.56,
-                "oi_change_pct": -0.03,
-                "oi_acceleration": 0
-              },
               {
                 "timestamp": 1775020500000,
                 "open_oi": 9511580.93,
                 "close_oi": 9506465.32,
                 "oi_change": -5115.61,
                 "oi_change_pct": -0.05,
-                "oi_acceleration": -0.03
+                "oi_acceleration": 0
               },
               {
                 "timestamp": 1775020800000,
@@ -38269,6 +38256,14 @@
                 "oi_change": -9061.0,
                 "oi_change_pct": -0.09,
                 "oi_acceleration": -0.11
+              },
+              {
+                "timestamp": 1775106300000,
+                "open_oi": 9797327.04,
+                "close_oi": 9828747.59,
+                "oi_change": 31420.55,
+                "oi_change_pct": 0.32,
+                "oi_acceleration": 0.41
               }
             ],
             "oi_momentum": {
@@ -38308,56 +38303,48 @@
               "volume": 30399581.82
             },
             {
-              "close": 78.99,
+              "close": 78.76,
               "high": 81.72,
               "low": 78.22,
-              "volume": 10580267.33
+              "volume": 10729090.55
             }
           ],
           "timestamp": 1775088000000
         },
         "2d": {
-          "close": 78.99,
-          "rsi": 38.2,
-          "price_change_pct": -60.35,
-          "volume": 50410498.97,
-          "volume_change_pct": -24.98,
+          "close": 78.73,
+          "rsi": 38.0,
+          "price_change_pct": -60.48,
+          "volume": 50411205.27,
+          "volume_change_pct": -24.96,
           "ma50": 103.32,
           "above_ma50": false,
-          "ema7": 84.01,
-          "ema25": 89.88,
-          "ema99": 123.32,
+          "ema7": 83.95,
+          "ema25": 89.86,
+          "ema99": 123.31,
           "ema200": 144.97,
-          "ma20": 86.12,
+          "ma20": 86.1,
           "bb": {
-            "upper": 95.15,
-            "upper_mid": 90.64,
-            "mid": 86.12,
-            "lower_mid": 81.6,
-            "lower": 77.08,
-            "width": 20.9869,
-            "position": 0.1056
+            "upper": 95.19,
+            "upper_mid": 90.65,
+            "mid": 86.1,
+            "lower_mid": 81.56,
+            "lower": 77.02,
+            "width": 21.0918,
+            "position": 0.0939
           },
           "oi_signal": {
-            "price_change": -5.0,
-            "oi_change_pct": 0.14,
-            "current_oi": 9797327.04,
+            "price_change": -5.32,
+            "oi_change_pct": 0.55,
+            "current_oi": 9828747.59,
             "oi_history": [
-              {
-                "timestamp": 1775020200000,
-                "open_oi": 9514059.49,
-                "close_oi": 9511580.93,
-                "oi_change": -2478.56,
-                "oi_change_pct": -0.03,
-                "oi_acceleration": 0
-              },
               {
                 "timestamp": 1775020500000,
                 "open_oi": 9511580.93,
                 "close_oi": 9506465.32,
                 "oi_change": -5115.61,
                 "oi_change_pct": -0.05,
-                "oi_acceleration": -0.03
+                "oi_acceleration": 0
               },
               {
                 "timestamp": 1775020800000,
@@ -40638,10 +40625,18 @@
                 "oi_change": -9061.0,
                 "oi_change_pct": -0.09,
                 "oi_acceleration": -0.11
+              },
+              {
+                "timestamp": 1775106300000,
+                "open_oi": 9797327.04,
+                "close_oi": 9828747.59,
+                "oi_change": 31420.55,
+                "oi_change_pct": 0.32,
+                "oi_acceleration": 0.41
               }
             ],
             "oi_momentum": {
-              "acceleration": -1.27,
+              "acceleration": -0.88,
               "state": "decelerating"
             },
             "status": "success"
@@ -40677,56 +40672,48 @@
               "volume": 56890799.88
             },
             {
-              "close": 78.99,
+              "close": 78.73,
               "high": 86.59,
               "low": 78.22,
-              "volume": 40979849.15
+              "volume": 41128172.6
             }
           ],
           "timestamp": 1775001600000
         },
         "1w": {
-          "close": 78.97,
+          "close": 78.74,
           "rsi": 31.3,
-          "price_change_pct": -42.29,
-          "volume": 192776517.57,
-          "volume_change_pct": 22.35,
-          "ma50": 150.97,
+          "price_change_pct": -42.46,
+          "volume": 192777226.0,
+          "volume_change_pct": 22.36,
+          "ma50": 150.96,
           "above_ma50": false,
-          "ema7": 86.34,
-          "ema25": 116.41,
+          "ema7": 86.28,
+          "ema25": 116.39,
           "ema99": 139.95,
           "ema200": 129.58,
-          "ma20": 108.36,
+          "ma20": 108.34,
           "bb": {
-            "upper": 155.77,
-            "upper_mid": 132.06,
-            "mid": 108.36,
-            "lower_mid": 84.65,
-            "lower": 60.94,
-            "width": 87.5125,
-            "position": 0.1901
+            "upper": 155.79,
+            "upper_mid": 132.07,
+            "mid": 108.34,
+            "lower_mid": 84.62,
+            "lower": 60.9,
+            "width": 87.5774,
+            "position": 0.188
           },
           "oi_signal": {
-            "price_change": -2.91,
-            "oi_change_pct": 2.98,
-            "current_oi": 9797327.04,
+            "price_change": -3.2,
+            "oi_change_pct": 3.33,
+            "current_oi": 9828747.59,
             "oi_history": [
-              {
-                "timestamp": 1775020200000,
-                "open_oi": 9514059.49,
-                "close_oi": 9511580.93,
-                "oi_change": -2478.56,
-                "oi_change_pct": -0.03,
-                "oi_acceleration": 0
-              },
               {
                 "timestamp": 1775020500000,
                 "open_oi": 9511580.93,
                 "close_oi": 9506465.32,
                 "oi_change": -5115.61,
                 "oi_change_pct": -0.05,
-                "oi_acceleration": -0.03
+                "oi_acceleration": 0
               },
               {
                 "timestamp": 1775020800000,
@@ -43007,6 +42994,14 @@
                 "oi_change": -9061.0,
                 "oi_change_pct": -0.09,
                 "oi_acceleration": -0.11
+              },
+              {
+                "timestamp": 1775106300000,
+                "open_oi": 9797327.04,
+                "close_oi": 9828747.59,
+                "oi_change": 31420.55,
+                "oi_change_pct": 0.32,
+                "oi_acceleration": 0.41
               }
             ],
             "oi_momentum": {
@@ -43046,56 +43041,48 @@
               "volume": 163198018.25
             },
             {
-              "close": 78.97,
+              "close": 78.74,
               "high": 86.59,
               "low": 78.22,
-              "volume": 97870204.47
+              "volume": 98018973.97
             }
           ],
           "timestamp": 1774828800000
         },
         "1M": {
-          "close": 78.97,
+          "close": 78.74,
           "rsi": 41.4,
-          "price_change_pct": 2622.73,
-          "volume": 696153828.0,
-          "volume_change_pct": 14.11,
-          "ma50": 102.09,
+          "price_change_pct": 2614.8,
+          "volume": 696156015.28,
+          "volume_change_pct": 14.12,
+          "ma50": 102.08,
           "above_ma50": false,
-          "ema7": 108.55,
-          "ema25": 130.6,
+          "ema7": 108.49,
+          "ema25": 130.59,
           "ema99": null,
           "ema200": null,
-          "ma20": 154.45,
+          "ma20": 154.44,
           "bb": {
-            "upper": 247.55,
-            "upper_mid": 201.0,
-            "mid": 154.45,
-            "lower_mid": 107.9,
-            "lower": 61.35,
-            "width": 120.5572,
-            "position": 0.0946
+            "upper": 247.58,
+            "upper_mid": 201.01,
+            "mid": 154.44,
+            "lower_mid": 107.87,
+            "lower": 61.3,
+            "width": 120.6171,
+            "position": 0.0936
           },
           "oi_signal": {
-            "price_change": -5.03,
-            "oi_change_pct": 2.98,
-            "current_oi": 9797327.04,
+            "price_change": -5.3,
+            "oi_change_pct": 3.33,
+            "current_oi": 9828747.59,
             "oi_history": [
-              {
-                "timestamp": 1775020200000,
-                "open_oi": 9514059.49,
-                "close_oi": 9511580.93,
-                "oi_change": -2478.56,
-                "oi_change_pct": -0.03,
-                "oi_acceleration": 0
-              },
               {
                 "timestamp": 1775020500000,
                 "open_oi": 9511580.93,
                 "close_oi": 9506465.32,
                 "oi_change": -5115.61,
                 "oi_change_pct": -0.05,
-                "oi_acceleration": -0.03
+                "oi_acceleration": 0
               },
               {
                 "timestamp": 1775020800000,
@@ -45376,6 +45363,14 @@
                 "oi_change": -9061.0,
                 "oi_change_pct": -0.09,
                 "oi_acceleration": -0.11
+              },
+              {
+                "timestamp": 1775106300000,
+                "open_oi": 9797327.04,
+                "close_oi": 9828747.59,
+                "oi_change": 31420.55,
+                "oi_change_pct": 0.32,
+                "oi_acceleration": 0.41
               }
             ],
             "oi_momentum": {
@@ -45415,10 +45410,10 @@
               "volume": 769982873.1
             },
             {
-              "close": 78.97,
+              "close": 78.74,
               "high": 86.59,
               "low": 78.22,
-              "volume": 40979439.09
+              "volume": 41128174.09
             }
           ],
           "timestamp": 1775001600000
@@ -45427,10 +45422,10 @@
       "warnings": []
     },
     "BTCUSDT": {
-      "price": 66379.1,
-      "change_24h_pct": -2.56,
-      "funding_rate": -3.187e-05,
-      "funding_rate_pct": -0.0031869999999999997,
+      "price": 66317.5,
+      "change_24h_pct": -2.75,
+      "funding_rate": -3.221e-05,
+      "funding_rate_pct": -0.003221,
       "next_funding_time": 1775116800,
       "open_interest": {
         "current_usd": 5874062666.0,
@@ -45568,88 +45563,88 @@
               "ratio": 0.44
             }
           ],
-          "market_cap_usd": 1329195166020,
+          "market_cap_usd": 1329058123507,
           "open_interest_usd": 5874062666.0,
           "data_interval": "1h",
           "status": "success",
-          "timestamp": 1775106376
+          "timestamp": 1775106629
         }
       },
       "cvd": {
         "futures": {
-          "value_usd": 4451075.46,
-          "million": 4.45,
-          "sma": 1.44,
-          "above_sma": true,
+          "value_usd": -5145575.46,
+          "million": -5.15,
+          "sma": 1.11,
+          "above_sma": false,
           "aggregated": {
             "status": "success",
-            "cvd_percent": 22.0,
-            "latest_cvd": 4451075.46,
-            "latest_cvd_million": 4.45,
-            "cvd_sma": 1.44,
-            "timestamp": "2026-04-02T14:06:59.050181"
+            "cvd_percent": -45.93,
+            "latest_cvd": -5145575.46,
+            "latest_cvd_million": -5.15,
+            "cvd_sma": 1.11,
+            "timestamp": "2026-04-02T14:11:14.836599"
           }
         },
         "spot": {
-          "cvd_pct": 10.63,
-          "buy_pct": 55.3,
-          "sell_pct": 44.7
+          "cvd_pct": 9.94,
+          "buy_pct": 55.0,
+          "sell_pct": 45.0
         },
         "comparison": {
           "status": "success",
-          "spot_cvd_percent": 10.63,
-          "futures_cvd_percent": 22.0,
-          "divergence": -11.37,
-          "confidence": "medium",
-          "timestamp": "2026-04-02T14:06:59.050214"
+          "spot_cvd_percent": 9.94,
+          "futures_cvd_percent": -45.93,
+          "divergence": 55.87,
+          "confidence": "low",
+          "timestamp": "2026-04-02T14:11:14.836625"
         },
         "enhanced": {
           "status": "success",
-          "cvd_million": 4.45,
-          "cvd_sma": 1.44,
+          "cvd_million": -5.15,
+          "cvd_sma": 1.11,
           "buy_sell_pressure": {
-            "buy_ratio": 61.0,
-            "sell_ratio": 39.0,
-            "dominant": "BUY"
+            "buy_ratio": 27.03,
+            "sell_ratio": 72.97,
+            "dominant": "SELL"
           },
           "divergences": [],
           "combined_oi_cvd_signal": null,
           "sma_position": {
-            "position": "ABOVE"
+            "position": "BELOW"
           },
           "price_change_pct": 0,
           "oi_change_pct": -0.26
         }
       },
       "taker_ratio": {
-        "buy_pct": 61.0,
-        "sell_pct": 39.0,
-        "buy_vol_usd": 12341853.0,
-        "sell_vol_usd": 7890777.0
+        "buy_pct": 27.03,
+        "sell_pct": 72.97,
+        "buy_vol_usd": 3028307.0,
+        "sell_vol_usd": 8173882.0
       },
       "liquidation": {
         "symbol": "BTC",
-        "1h_long_usd": 5806922.0,
-        "1h_short_usd": 67810.0,
-        "4h_long_usd": 46205201.0,
-        "4h_short_usd": 1481143.0,
-        "12h_long_usd": 54149439.0,
-        "12h_short_usd": 3467340.0,
-        "24h_long_usd": 63182795.0,
-        "24h_short_usd": 38386134.0,
+        "1h_long_usd": 5865961.0,
+        "1h_short_usd": 67076.0,
+        "4h_long_usd": 39678745.0,
+        "4h_short_usd": 819885.0,
+        "12h_long_usd": 54207030.0,
+        "12h_short_usd": 3467196.0,
+        "24h_long_usd": 63228816.0,
+        "24h_short_usd": 38375430.0,
         "status": "success",
-        "total_liquidation_12h": 57616779.0,
-        "long_ratio": 93.98,
-        "short_ratio": 6.02,
+        "total_liquidation_12h": 57674226.0,
+        "long_ratio": 93.99,
+        "short_ratio": 6.01,
         "_liquidation_note": "12h/24h_long_usd=해당 기간 롱 포지션 강제청산 금액(USD). short_usd=숏 청산 금액. 롱 청산이 많으면 하락 중 롱이 밀린것, 숏 청산이 많으면 상승 중 숏이 밀린것. long_ratio/short_ratio=전체 청산 중 비중(%)",
-        "timestamp": 1775106324,
+        "timestamp": 1775106578,
         "source": "coinglass",
         "data_interval": "12h"
       },
       "whale_reference": {
         "status": "success",
         "vwap": 68009.7,
-        "distance_pct": -2.4,
+        "distance_pct": -2.49,
         "oi_spike_count": 1,
         "usable": true,
         "source_timestamp": null,
@@ -45657,39 +45652,30 @@
         "_cache_note": null
       },
       "orderbook": {
-        "buy_nearest": 66354.32,
-        "sell_nearest": 66416.95,
+        "buy_nearest": 66268.55,
+        "sell_nearest": 66330.53,
         "top_buy": [],
         "top_sell": [],
-        "imbalance_ratio": 1.556
+        "imbalance_ratio": 1.34
       },
       "relative_strength_vs_btc": null,
       "whale_ratio": {
         "symbol": "BTC/USDT",
         "exchange": "binance",
-        "top_long_short_ratio": 1.99,
-        "top_long_account": 66.58,
-        "top_short_account": 33.42,
-        "global_long_short_ratio": 1.87,
-        "global_long_account": 65.16,
-        "global_short_account": 34.84,
+        "top_long_short_ratio": 2.0,
+        "top_long_account": 66.65,
+        "top_short_account": 33.35,
+        "global_long_short_ratio": 1.88,
+        "global_long_account": 65.29,
+        "global_short_account": 34.71,
         "hourly_history": [
-          {
-            "timestamp": 1775102700,
-            "top_long_pct": 66.58,
-            "top_short_pct": 33.42,
-            "top_long_short_ratio": 1.99,
-            "global_long_pct": 65.16,
-            "global_short_pct": 34.84,
-            "global_long_short_ratio": 1.87
-          },
           {
             "timestamp": 1775103000,
             "top_long_pct": 66.65,
             "top_short_pct": 33.35,
             "top_long_short_ratio": 2.0,
-            "global_long_pct": 65.23,
-            "global_short_pct": 34.77,
+            "global_long_pct": 65.29,
+            "global_short_pct": 34.71,
             "global_long_short_ratio": 1.88
           },
           {
@@ -45697,8 +45683,8 @@
             "top_long_pct": 66.7,
             "top_short_pct": 33.3,
             "top_long_short_ratio": 2.0,
-            "global_long_pct": 65.29,
-            "global_short_pct": 34.71,
+            "global_long_pct": 65.31,
+            "global_short_pct": 34.69,
             "global_long_short_ratio": 1.88
           },
           {
@@ -45706,21 +45692,12 @@
             "top_long_pct": 66.73,
             "top_short_pct": 33.27,
             "top_long_short_ratio": 2.01,
-            "global_long_pct": 65.31,
-            "global_short_pct": 34.69,
-            "global_long_short_ratio": 1.88
-          },
-          {
-            "timestamp": 1775103900,
-            "top_long_pct": 66.71,
-            "top_short_pct": 33.29,
-            "top_long_short_ratio": 2.0,
             "global_long_pct": 65.27,
             "global_short_pct": 34.73,
             "global_long_short_ratio": 1.88
           },
           {
-            "timestamp": 1775104200,
+            "timestamp": 1775103900,
             "top_long_pct": 66.71,
             "top_short_pct": 33.29,
             "top_long_short_ratio": 2.0,
@@ -45729,21 +45706,30 @@
             "global_long_short_ratio": 1.88
           },
           {
+            "timestamp": 1775104200,
+            "top_long_pct": 66.71,
+            "top_short_pct": 33.29,
+            "top_long_short_ratio": 2.0,
+            "global_long_pct": 65.32,
+            "global_short_pct": 34.68,
+            "global_long_short_ratio": 1.88
+          },
+          {
             "timestamp": 1775104500,
             "top_long_pct": 66.77,
             "top_short_pct": 33.23,
             "top_long_short_ratio": 2.01,
-            "global_long_pct": 65.32,
-            "global_short_pct": 34.68,
-            "global_long_short_ratio": 1.88
+            "global_long_pct": 65.61,
+            "global_short_pct": 34.39,
+            "global_long_short_ratio": 1.91
           },
           {
             "timestamp": 1775104800,
             "top_long_pct": 67.2,
             "top_short_pct": 32.8,
             "top_long_short_ratio": 2.05,
-            "global_long_pct": 65.61,
-            "global_short_pct": 34.39,
+            "global_long_pct": 65.64,
+            "global_short_pct": 34.36,
             "global_long_short_ratio": 1.91
           },
           {
@@ -45751,64 +45737,73 @@
             "top_long_pct": 67.25,
             "top_short_pct": 32.75,
             "top_long_short_ratio": 2.05,
-            "global_long_pct": 65.64,
-            "global_short_pct": 34.36,
-            "global_long_short_ratio": 1.91
+            "global_long_pct": 65.73,
+            "global_short_pct": 34.27,
+            "global_long_short_ratio": 1.92
           },
           {
             "timestamp": 1775105400,
             "top_long_pct": 67.35,
             "top_short_pct": 32.65,
             "top_long_short_ratio": 2.06,
-            "global_long_pct": 65.73,
-            "global_short_pct": 34.27,
-            "global_long_short_ratio": 1.92
+            "global_long_pct": 65.92,
+            "global_short_pct": 34.08,
+            "global_long_short_ratio": 1.93
           },
           {
             "timestamp": 1775105700,
             "top_long_pct": 67.55,
             "top_short_pct": 32.45,
             "top_long_short_ratio": 2.08,
-            "global_long_pct": 65.92,
-            "global_short_pct": 34.08,
-            "global_long_short_ratio": 1.93
+            "global_long_pct": 65.96,
+            "global_short_pct": 34.04,
+            "global_long_short_ratio": 1.94
           },
           {
             "timestamp": 1775106000,
             "top_long_pct": 67.6,
             "top_short_pct": 32.4,
             "top_long_short_ratio": 2.09,
-            "global_long_pct": 65.96,
-            "global_short_pct": 34.04,
-            "global_long_short_ratio": 1.94
+            "global_long_pct": 66.28,
+            "global_short_pct": 33.72,
+            "global_long_short_ratio": 1.97
+          },
+          {
+            "timestamp": 1775106300,
+            "top_long_pct": 67.83,
+            "top_short_pct": 32.17,
+            "top_long_short_ratio": 2.11,
+            "global_long_pct": 66.4,
+            "global_short_pct": 33.6,
+            "global_long_short_ratio": 1.98
           }
         ],
         "_ratio_note": "top_long_short_ratio=상위 트레이더(세력) 롱/숏 비율. 1.5면 롱이 숏의 1.5배. global=전체 계정(개미 포함) 비율. 세력과 개미 방향이 같으면 강한 컨센서스, 반대면 한쪽이 함정에 빠질수있음. hourly_history=최근 1시간 5분봉 12개 추이",
         "data_interval": "5m",
         "status": "success",
-        "timestamp": 1775106378,
+        "timestamp": 1775106629,
         "reference_exchange": null
       },
       "premium_flow": {
         "status": "success",
-        "coinbase_premium": 0.08,
+        "coinbase_premium": 0.0,
         "upbit_premium": null,
         "is_inversion": false,
-        "timestamp": "2026-04-02T14:06:23.413520"
+        "timestamp": "2026-04-02T14:10:35.408550"
       },
       "energy": {
         "delta_price_pct": 0,
         "delta_oi_pct": 0,
-        "cvd_sma": 1.44
+        "cvd_sma": 1.11
       },
       "support_resistance": {
         "symbol": "BTC/USDT",
         "timeframe": "15m, 30m, 1h, 4h, 12h, 1d, 1w, 1M",
         "exchange": "binance",
-        "current_price": 66379.1,
+        "current_price": 66317.5,
         "resistance_groups": [
           {
-            "avg_price": 67302.66,
+            "avg_price": 67301.75,
             "timeframes": [
               "15m",
               "1h",
@@ -45869,7 +45864,7 @@
             "false_breakout_confidence": 0.0
           },
           {
-            "avg_price": 69329.18,
+            "avg_price": 69328.69,
             "timeframes": [
               "12h",
               "15m",
@@ -45951,45 +45946,20 @@
         ],
         "support_groups": [
           {
-            "avg_price": 65872.28,
+            "avg_price": 65752.54,
             "timeframes": [
               "12h",
               "1M",
               "1d",
-              "1h",
               "1w",
               "4h"
             ],
-            "total_weight": 30.0,
+            "total_weight": 28.0,
             "reasons": [
-              "저점 패턴, 거래량 급증, 급등락 지점",
-              "거래량 급증, VAL (가치영역 하단), 저점 패턴, 급등락 지점, 피보 78.6%",
               "VAL (가치영역 하단)",
-              "거래량 급증, 저점 패턴",
+              "VAL (가치영역 하단), 저점 패턴, 거래량 급증, 급등락 지점, 피보 78.6%",
               "저점 패턴",
               "피보 78.6%, POC (거래량 최대)"
-            ],
-            "ma_metadata": null,
-            "volume_metadata": null,
-            "reliability_score": 0.0,
-            "test_count": 0,
-            "bounce_count": 0,
-            "break_count": 0,
-            "last_test_timestamp": null,
-            "level_age_days": 0.0,
-            "false_breakout_count": 0,
-            "false_breakout_detected": false,
-            "false_breakout_signals": [],
-            "false_breakout_confidence": 0.0
-          },
-          {
-            "avg_price": 64918.2,
-            "timeframes": [
-              "4h"
-            ],
-            "total_weight": 3,
-            "reasons": [
-              "저점 패턴"
             ],
             "ma_metadata": null,
             "volume_metadata": null,
@@ -46071,6 +46041,28 @@
             "false_breakout_detected": false,
             "false_breakout_signals": [],
             "false_breakout_confidence": 0.0
+          },
+          {
+            "avg_price": 48888.0,
+            "timeframes": [
+              "1M"
+            ],
+            "total_weight": 6,
+            "reasons": [
+              "저점 패턴"
+            ],
+            "ma_metadata": null,
+            "volume_metadata": null,
+            "reliability_score": 0.0,
+            "test_count": 0,
+            "bounce_count": 0,
+            "break_count": 0,
+            "last_test_timestamp": null,
+            "level_age_days": 0.0,
+            "false_breakout_count": 0,
+            "false_breakout_detected": false,
+            "false_breakout_signals": [],
+            "false_breakout_confidence": 0.0
           }
         ],
         "volume_profile": null,
@@ -46091,11 +46083,11 @@
             "4h"
           ],
           "oi_summary": {
-            "oi_change_pct": -0.01,
+            "oi_change_pct": -0.03,
             "confidence": null,
-            "timestamp": "2026-04-02T14:06:21.257436"
+            "timestamp": "2026-04-02T14:10:33.431708"
           },
-          "timestamp": 1775106381,
+          "timestamp": 1775106633,
           "signal_status": "active"
         },
         "mid_term_phase": {
@@ -46106,25 +46098,25 @@
             "2d"
           ],
           "oi_summary": {
-            "oi_change_pct": -2.11,
+            "oi_change_pct": -2.08,
             "confidence": null,
-            "timestamp": "2026-04-02T14:06:21.257481"
+            "timestamp": "2026-04-02T14:10:33.431761"
           },
-          "timestamp": 1775106381,
+          "timestamp": 1775106633,
           "signal_status": "active"
         },
         "long_term_phase": {
-          "confidence": 0.84,
+          "confidence": 0.85,
           "timeframes": [
             "1w",
             "1M"
           ],
           "oi_summary": {
-            "oi_change_pct": -2.33,
+            "oi_change_pct": -2.14,
             "confidence": null,
-            "timestamp": "2026-04-02T14:06:21.257504"
+            "timestamp": "2026-04-02T14:10:33.431789"
           },
-          "timestamp": 1775106381,
+          "timestamp": 1775106633,
           "signal_status": "active"
         },
         "alignment_confidence": 70,
@@ -46132,25 +46124,17 @@
           "15m": {
             "confidence": 0.5,
             "oi_signal": {
-              "price_change": 0.12,
-              "oi_change_pct": -0.01,
-              "current_oi": 88532.416,
+              "price_change": 0.03,
+              "oi_change_pct": -0.03,
+              "current_oi": 88535.228,
               "oi_history": [
-                {
-                  "timestamp": 1775020200000,
-                  "open_oi": 90642.6,
-                  "close_oi": 90468.29,
-                  "oi_change": -174.31,
-                  "oi_change_pct": -0.19,
-                  "oi_acceleration": 0
-                },
                 {
                   "timestamp": 1775020500000,
                   "open_oi": 90468.29,
                   "close_oi": 90448.2,
                   "oi_change": -20.09,
                   "oi_change_pct": -0.02,
-                  "oi_acceleration": 0.17
+                  "oi_acceleration": 0
                 },
                 {
                   "timestamp": 1775020800000,
@@ -48431,11 +48415,19 @@
                   "oi_change": -65.55,
                   "oi_change_pct": -0.07,
                   "oi_acceleration": -0.12
+                },
+                {
+                  "timestamp": 1775106300000,
+                  "open_oi": 88532.42,
+                  "close_oi": 88535.23,
+                  "oi_change": 2.81,
+                  "oi_change_pct": 0.0,
+                  "oi_acceleration": 0.08
                 }
               ],
               "oi_momentum": {
-                "acceleration": 0.21,
-                "state": "reversing"
+                "acceleration": 0.14,
+                "state": "stable"
               },
               "status": "success"
             },
@@ -48453,25 +48445,17 @@
           "1h": {
             "confidence": 0.42,
             "oi_signal": {
-              "price_change": 0.12,
+              "price_change": 0.03,
               "oi_change_pct": -0.02,
-              "current_oi": 88532.416,
+              "current_oi": 88535.228,
               "oi_history": [
-                {
-                  "timestamp": 1775020200000,
-                  "open_oi": 90642.6,
-                  "close_oi": 90468.29,
-                  "oi_change": -174.31,
-                  "oi_change_pct": -0.19,
-                  "oi_acceleration": 0
-                },
                 {
                   "timestamp": 1775020500000,
                   "open_oi": 90468.29,
                   "close_oi": 90448.2,
                   "oi_change": -20.09,
                   "oi_change_pct": -0.02,
-                  "oi_acceleration": 0.17
+                  "oi_acceleration": 0
                 },
                 {
                   "timestamp": 1775020800000,
@@ -50752,6 +50736,14 @@
                   "oi_change": -65.55,
                   "oi_change_pct": -0.07,
                   "oi_acceleration": -0.12
+                },
+                {
+                  "timestamp": 1775106300000,
+                  "open_oi": 88532.42,
+                  "close_oi": 88535.23,
+                  "oi_change": 2.81,
+                  "oi_change_pct": 0.0,
+                  "oi_acceleration": 0.08
                 }
               ],
               "oi_momentum": {
@@ -50772,25 +50764,17 @@
           "2h": {
             "confidence": 0.3,
             "oi_signal": {
-              "price_change": -0.24,
-              "oi_change_pct": 0.17,
-              "current_oi": 88532.416,
+              "price_change": -0.33,
+              "oi_change_pct": 0.18,
+              "current_oi": 88535.228,
               "oi_history": [
-                {
-                  "timestamp": 1775020200000,
-                  "open_oi": 90642.6,
-                  "close_oi": 90468.29,
-                  "oi_change": -174.31,
-                  "oi_change_pct": -0.19,
-                  "oi_acceleration": 0
-                },
                 {
                   "timestamp": 1775020500000,
                   "open_oi": 90468.29,
                   "close_oi": 90448.2,
                   "oi_change": -20.09,
                   "oi_change_pct": -0.02,
-                  "oi_acceleration": 0.17
+                  "oi_acceleration": 0
                 },
                 {
                   "timestamp": 1775020800000,
@@ -53071,10 +53055,18 @@
                   "oi_change": -65.55,
                   "oi_change_pct": -0.07,
                   "oi_acceleration": -0.12
+                },
+                {
+                  "timestamp": 1775106300000,
+                  "open_oi": 88532.42,
+                  "close_oi": 88535.23,
+                  "oi_change": 2.81,
+                  "oi_change_pct": 0.0,
+                  "oi_acceleration": 0.08
                 }
               ],
               "oi_momentum": {
-                "acceleration": 0.95,
+                "acceleration": 0.38,
                 "state": "accelerating"
               },
               "status": "success"
@@ -53091,25 +53083,17 @@
           "4h": {
             "confidence": 0.51,
             "oi_signal": {
-              "price_change": -0.24,
-              "oi_change_pct": -0.6,
-              "current_oi": 88532.416,
+              "price_change": -0.33,
+              "oi_change_pct": -0.03,
+              "current_oi": 88535.228,
               "oi_history": [
-                {
-                  "timestamp": 1775020200000,
-                  "open_oi": 90642.6,
-                  "close_oi": 90468.29,
-                  "oi_change": -174.31,
-                  "oi_change_pct": -0.19,
-                  "oi_acceleration": 0
-                },
                 {
                   "timestamp": 1775020500000,
                   "open_oi": 90468.29,
                   "close_oi": 90448.2,
                   "oi_change": -20.09,
                   "oi_change_pct": -0.02,
-                  "oi_acceleration": 0.17
+                  "oi_acceleration": 0
                 },
                 {
                   "timestamp": 1775020800000,
@@ -55390,11 +55374,19 @@
                   "oi_change": -65.55,
                   "oi_change_pct": -0.07,
                   "oi_acceleration": -0.12
+                },
+                {
+                  "timestamp": 1775106300000,
+                  "open_oi": 88532.42,
+                  "close_oi": 88535.23,
+                  "oi_change": 2.81,
+                  "oi_change_pct": 0.0,
+                  "oi_acceleration": 0.08
                 }
               ],
               "oi_momentum": {
-                "acceleration": -0.03,
-                "state": "trending"
+                "acceleration": 1.0,
+                "state": "accelerating"
               },
               "status": "success"
             },
@@ -55410,25 +55402,17 @@
           "12h": {
             "confidence": 1.0,
             "oi_signal": {
-              "price_change": -2.51,
-              "oi_change_pct": -2.11,
-              "current_oi": 88532.416,
+              "price_change": -2.6,
+              "oi_change_pct": -2.08,
+              "current_oi": 88535.228,
               "oi_history": [
-                {
-                  "timestamp": 1775020200000,
-                  "open_oi": 90642.6,
-                  "close_oi": 90468.29,
-                  "oi_change": -174.31,
-                  "oi_change_pct": -0.19,
-                  "oi_acceleration": 0
-                },
                 {
                   "timestamp": 1775020500000,
                   "open_oi": 90468.29,
                   "close_oi": 90448.2,
                   "oi_change": -20.09,
                   "oi_change_pct": -0.02,
-                  "oi_acceleration": 0.17
+                  "oi_acceleration": 0
                 },
                 {
                   "timestamp": 1775020800000,
@@ -57709,6 +57693,14 @@
                   "oi_change": -65.55,
                   "oi_change_pct": -0.07,
                   "oi_acceleration": -0.12
+                },
+                {
+                  "timestamp": 1775106300000,
+                  "open_oi": 88532.42,
+                  "close_oi": 88535.23,
+                  "oi_change": 2.81,
+                  "oi_change_pct": 0.0,
+                  "oi_acceleration": 0.08
                 }
               ],
               "oi_momentum": {
@@ -57729,25 +57721,17 @@
           "1d": {
             "confidence": 0.7,
             "oi_signal": {
-              "price_change": -2.51,
-              "oi_change_pct": -2.11,
-              "current_oi": 88532.416,
+              "price_change": -2.6,
+              "oi_change_pct": -2.08,
+              "current_oi": 88535.228,
               "oi_history": [
-                {
-                  "timestamp": 1775020200000,
-                  "open_oi": 90642.6,
-                  "close_oi": 90468.29,
-                  "oi_change": -174.31,
-                  "oi_change_pct": -0.19,
-                  "oi_acceleration": 0
-                },
                 {
                   "timestamp": 1775020500000,
                   "open_oi": 90468.29,
                   "close_oi": 90448.2,
                   "oi_change": -20.09,
                   "oi_change_pct": -0.02,
-                  "oi_acceleration": 0.17
+                  "oi_acceleration": 0
                 },
                 {
                   "timestamp": 1775020800000,
@@ -60028,6 +60012,14 @@
                   "oi_change": -65.55,
                   "oi_change_pct": -0.07,
                   "oi_acceleration": -0.12
+                },
+                {
+                  "timestamp": 1775106300000,
+                  "open_oi": 88532.42,
+                  "close_oi": 88535.23,
+                  "oi_change": 2.81,
+                  "oi_change_pct": 0.0,
+                  "oi_acceleration": 0.08
                 }
               ],
               "oi_momentum": {
@@ -60041,25 +60033,17 @@
           "2d": {
             "confidence": 0.72,
             "oi_signal": {
-              "price_change": -2.73,
+              "price_change": -2.82,
               "oi_change_pct": -0.02,
-              "current_oi": 88532.416,
+              "current_oi": 88535.228,
               "oi_history": [
-                {
-                  "timestamp": 1775020200000,
-                  "open_oi": 90642.6,
-                  "close_oi": 90468.29,
-                  "oi_change": -174.31,
-                  "oi_change_pct": -0.19,
-                  "oi_acceleration": 0
-                },
                 {
                   "timestamp": 1775020500000,
                   "open_oi": 90468.29,
                   "close_oi": 90448.2,
                   "oi_change": -20.09,
                   "oi_change_pct": -0.02,
-                  "oi_acceleration": 0.17
+                  "oi_acceleration": 0
                 },
                 {
                   "timestamp": 1775020800000,
@@ -62340,6 +62324,14 @@
                   "oi_change": -65.55,
                   "oi_change_pct": -0.07,
                   "oi_acceleration": -0.12
+                },
+                {
+                  "timestamp": 1775106300000,
+                  "open_oi": 88532.42,
+                  "close_oi": 88535.23,
+                  "oi_change": 2.81,
+                  "oi_change_pct": 0.0,
+                  "oi_acceleration": 0.08
                 }
               ],
               "oi_momentum": {
@@ -62351,27 +62343,19 @@
             "bb_position": "above_middle"
           },
           "1w": {
-            "confidence": 0.63,
+            "confidence": 0.65,
             "oi_signal": {
-              "price_change": 0.6,
-              "oi_change_pct": -2.33,
-              "current_oi": 88532.416,
+              "price_change": 0.51,
+              "oi_change_pct": -2.14,
+              "current_oi": 88535.228,
               "oi_history": [
-                {
-                  "timestamp": 1775020200000,
-                  "open_oi": 90642.6,
-                  "close_oi": 90468.29,
-                  "oi_change": -174.31,
-                  "oi_change_pct": -0.19,
-                  "oi_acceleration": 0
-                },
                 {
                   "timestamp": 1775020500000,
                   "open_oi": 90468.29,
                   "close_oi": 90448.2,
                   "oi_change": -20.09,
                   "oi_change_pct": -0.02,
-                  "oi_acceleration": 0.17
+                  "oi_acceleration": 0
                 },
                 {
                   "timestamp": 1775020800000,
@@ -64652,6 +64636,14 @@
                   "oi_change": -65.55,
                   "oi_change_pct": -0.07,
                   "oi_acceleration": -0.12
+                },
+                {
+                  "timestamp": 1775106300000,
+                  "open_oi": 88532.42,
+                  "close_oi": 88535.23,
+                  "oi_change": 2.81,
+                  "oi_change_pct": 0.0,
+                  "oi_acceleration": 0.08
                 }
               ],
               "oi_momentum": {
@@ -64666,31 +64658,23 @@
               "range_low": 62401.7,
               "range_midpoint": 69200.3,
               "range_width_pct": 21.79,
-              "current_position_pct": 29.3
+              "current_position_pct": 28.8
             }
           },
           "1M": {
             "confidence": 1.0,
             "oi_signal": {
-              "price_change": -2.73,
-              "oi_change_pct": -2.33,
-              "current_oi": 88532.416,
+              "price_change": -2.82,
+              "oi_change_pct": -2.14,
+              "current_oi": 88535.228,
               "oi_history": [
-                {
-                  "timestamp": 1775020200000,
-                  "open_oi": 90642.6,
-                  "close_oi": 90468.29,
-                  "oi_change": -174.31,
-                  "oi_change_pct": -0.19,
-                  "oi_acceleration": 0
-                },
                 {
                   "timestamp": 1775020500000,
                   "open_oi": 90468.29,
                   "close_oi": 90448.2,
                   "oi_change": -20.09,
                   "oi_change_pct": -0.02,
-                  "oi_acceleration": 0.17
+                  "oi_acceleration": 0
                 },
                 {
                   "timestamp": 1775020800000,
@@ -66971,6 +66955,14 @@
                   "oi_change": -65.55,
                   "oi_change_pct": -0.07,
                   "oi_acceleration": -0.12
+                },
+                {
+                  "timestamp": 1775106300000,
+                  "open_oi": 88532.42,
+                  "close_oi": 88535.23,
+                  "oi_change": 2.81,
+                  "oi_change_pct": 0.0,
+                  "oi_acceleration": 0.08
                 }
               ],
               "oi_momentum": {
@@ -66982,49 +66974,49 @@
             "bb_position": "below_middle"
           }
         },
-        "timestamp": 1775106381
+        "timestamp": 1775106633
       },
       "whale_advanced_data": {
         "taker_volume": {
           "symbol": "BTC/USDT",
-          "taker_buy_volume": 12341852.8,
-          "taker_sell_volume": 7890777.35,
-          "taker_buy_sell_ratio": 1.56,
-          "buy_vol_usd": 12341853.0,
-          "sell_vol_usd": 7890777.0,
-          "total_volume": 20232630.15,
-          "buy_ratio": 61.0,
-          "sell_ratio": 39.0,
-          "cvd": 4451075.46,
-          "cvd_million": 4.45,
-          "cvd_sma": 1.44,
+          "taker_buy_volume": 3028306.76,
+          "taker_sell_volume": 8173882.22,
+          "taker_buy_sell_ratio": 0.37,
+          "buy_vol_usd": 3028307.0,
+          "sell_vol_usd": 8173882.0,
+          "total_volume": 11202188.99,
+          "buy_ratio": 27.03,
+          "sell_ratio": 72.97,
+          "cvd": -5145575.46,
+          "cvd_million": -5.15,
+          "cvd_sma": 1.11,
           "status": "success",
-          "timestamp": 1775106329
+          "timestamp": 1775106583
         },
         "advanced_ratio": {
           "symbol": "BTC/USDT",
-          "top_trader_long_short_ratio_accounts": 2.09,
+          "top_trader_long_short_ratio_accounts": 2.11,
           "top_trader_long_short_ratio_positions": 0.91,
-          "global_long_short_ratio": 1.94,
-          "gap": 1.0229,
+          "global_long_short_ratio": 1.97,
+          "gap": 1.0508,
           "whale_bias": "SHORT",
           "retail_bias": "LONG",
           "divergence_signal": "SHORT_BIAS",
           "trap_type": "BULL_TRAP",
           "status": "success",
-          "timestamp": 1775106329
+          "timestamp": 1775106584
         },
         "liquidation_heatmap": {
           "symbol": "BTC/USDT",
           "totals_12h": {
-            "short_usd": 3467340.0,
-            "long_usd": 54149439.0
+            "short_usd": 3467196.0,
+            "long_usd": 54207030.0
           },
           "data_source": "coinglass_coin_list",
           "data_interval": "12h",
           "status": "limited",
           "note": "Hobby 플랜: /liquidation-map 사용 불가. 가격대별 데이터는 /api/liquidation-stream 참고",
-          "timestamp": 1775106354
+          "timestamp": 1775106607
         },
         "open_interest": {
           "symbol": "BTC/USDT",
@@ -67040,7 +67032,7 @@
           "_oi_note": "current_oi_usd=현재 미결제약정 총액(USD). 시장에 열려있는 선물 포지션 총 규모. oi_change_1h/24h_pct=변동률(%). OI증가=신규 포지션 진입, OI감소=포지션 청산/종료. oi_momentum.acceleration=OI 변화의 가속도(양수면 진입 가속, 음수면 둔화)",
           "data_interval": "1h",
           "status": "success",
-          "timestamp": 1775106370
+          "timestamp": 1775106623
         },
         "oi_market_cap_ratio": {
           "symbol": "BTC/USDT",
@@ -67167,56 +67159,48 @@
               "ratio": 0.44
             }
           ],
-          "market_cap_usd": 1329195166020,
+          "market_cap_usd": 1329058123507,
           "open_interest_usd": 5874062666.0,
           "data_interval": "1h",
           "status": "success",
-          "timestamp": 1775106376
+          "timestamp": 1775106629
         }
       },
       "timeframes": {
         "15m": {
-          "close": 66376.5,
-          "rsi": 29.5,
-          "price_change_pct": -1.19,
-          "volume": 2171.3,
-          "volume_change_pct": -60.36,
-          "ma50": 67748.78,
+          "close": 66318.9,
+          "rsi": 27.4,
+          "price_change_pct": -1.27,
+          "volume": 2173.23,
+          "volume_change_pct": -59.39,
+          "ma50": 67747.63,
           "above_ma50": false,
-          "ema7": 66451.19,
-          "ema25": 67068.34,
-          "ema99": 67802.99,
-          "ema200": 67798.49,
-          "ma20": 67050.18,
+          "ema7": 66436.79,
+          "ema25": 67063.91,
+          "ema99": 67801.83,
+          "ema200": 67797.92,
+          "ma20": 67047.29,
           "bb": {
-            "upper": 68529.86,
-            "upper_mid": 67790.02,
-            "mid": 67050.18,
-            "lower_mid": 66310.33,
-            "lower": 65570.49,
-            "width": 4.4137,
-            "position": 0.2724
+            "upper": 68532.71,
+            "upper_mid": 67790.0,
+            "mid": 67047.29,
+            "lower_mid": 66304.59,
+            "lower": 65561.88,
+            "width": 4.431,
+            "position": 0.2548
           },
           "oi_signal": {
-            "price_change": 0.12,
-            "oi_change_pct": -0.01,
-            "current_oi": 88532.416,
+            "price_change": 0.03,
+            "oi_change_pct": -0.03,
+            "current_oi": 88535.228,
             "oi_history": [
-              {
-                "timestamp": 1775020200000,
-                "open_oi": 90642.6,
-                "close_oi": 90468.29,
-                "oi_change": -174.31,
-                "oi_change_pct": -0.19,
-                "oi_acceleration": 0
-              },
               {
                 "timestamp": 1775020500000,
                 "open_oi": 90468.29,
                 "close_oi": 90448.2,
                 "oi_change": -20.09,
                 "oi_change_pct": -0.02,
-                "oi_acceleration": 0.17
+                "oi_acceleration": 0
               },
               {
                 "timestamp": 1775020800000,
@@ -69497,11 +69481,19 @@
                 "oi_change": -65.55,
                 "oi_change_pct": -0.07,
                 "oi_acceleration": -0.12
+              },
+              {
+                "timestamp": 1775106300000,
+                "open_oi": 88532.42,
+                "close_oi": 88535.23,
+                "oi_change": 2.81,
+                "oi_change_pct": 0.0,
+                "oi_acceleration": 0.08
               }
             ],
             "oi_momentum": {
-              "acceleration": 0.21,
-              "state": "reversing"
+              "acceleration": 0.14,
+              "state": "stable"
             },
             "status": "success"
           },
@@ -69536,56 +69528,48 @@
               "volume": 1821.42
             },
             {
-              "close": 66376.5,
+              "close": 66318.9,
               "high": 66478.2,
-              "low": 66300.0,
-              "volume": 1025.12
+              "low": 66270.0,
+              "volume": 1429.7
             }
           ],
           "timestamp": 1775106000000
         },
         "30m": {
-          "close": 66376.5,
-          "rsi": 26.3,
-          "price_change_pct": -0.76,
-          "volume": 3660.88,
-          "volume_change_pct": 286.25,
-          "ma50": 68146.94,
+          "close": 66317.5,
+          "rsi": 24.6,
+          "price_change_pct": -0.85,
+          "volume": 3662.81,
+          "volume_change_pct": 288.98,
+          "ma50": 68145.76,
           "above_ma50": false,
-          "ema7": 66666.65,
-          "ema25": 67474.75,
-          "ema99": 67756.54,
-          "ema200": 67519.79,
-          "ma20": 67559.17,
+          "ema7": 66651.9,
+          "ema25": 67470.21,
+          "ema99": 67755.36,
+          "ema200": 67519.2,
+          "ma20": 67556.21,
           "bb": {
-            "upper": 69136.15,
-            "upper_mid": 68347.66,
-            "mid": 67559.17,
-            "lower_mid": 66770.67,
-            "lower": 65982.18,
-            "width": 4.6685,
-            "position": 0.125
+            "upper": 69142.71,
+            "upper_mid": 68349.46,
+            "mid": 67556.21,
+            "lower_mid": 66762.97,
+            "lower": 65969.72,
+            "width": 4.6968,
+            "position": 0.1096
           },
           "oi_signal": {
-            "price_change": 0.12,
-            "oi_change_pct": -0.23,
-            "current_oi": 88532.416,
+            "price_change": 0.03,
+            "oi_change_pct": -0.2,
+            "current_oi": 88535.228,
             "oi_history": [
-              {
-                "timestamp": 1775020200000,
-                "open_oi": 90642.6,
-                "close_oi": 90468.29,
-                "oi_change": -174.31,
-                "oi_change_pct": -0.19,
-                "oi_acceleration": 0
-              },
               {
                 "timestamp": 1775020500000,
                 "open_oi": 90468.29,
                 "close_oi": 90448.2,
                 "oi_change": -20.09,
                 "oi_change_pct": -0.02,
-                "oi_acceleration": 0.17
+                "oi_acceleration": 0
               },
               {
                 "timestamp": 1775020800000,
@@ -71866,10 +71850,18 @@
                 "oi_change": -65.55,
                 "oi_change_pct": -0.07,
                 "oi_acceleration": -0.12
+              },
+              {
+                "timestamp": 1775106300000,
+                "open_oi": 88532.42,
+                "close_oi": 88535.23,
+                "oi_change": 2.81,
+                "oi_change_pct": 0.0,
+                "oi_acceleration": 0.08
               }
             ],
             "oi_momentum": {
-              "acceleration": -0.43,
+              "acceleration": -0.38,
               "state": "decelerating"
             },
             "status": "success"
@@ -71905,56 +71897,48 @@
               "volume": 4137.41
             },
             {
-              "close": 66376.5,
+              "close": 66317.5,
               "high": 66478.2,
-              "low": 66300.0,
-              "volume": 1020.47
+              "low": 66270.0,
+              "volume": 1426.89
             }
           ],
           "timestamp": 1775106000000
         },
         "1h": {
-          "close": 66380.1,
-          "rsi": 32.5,
-          "price_change_pct": -6.41,
-          "volume": 7357.37,
-          "volume_change_pct": -2.35,
-          "ma50": 67777.36,
+          "close": 66318.8,
+          "rsi": 31.5,
+          "price_change_pct": -6.49,
+          "volume": 7359.34,
+          "volume_change_pct": -1.78,
+          "ma50": 67776.13,
           "above_ma50": false,
-          "ema7": 66962.84,
-          "ema25": 67702.36,
-          "ema99": 67660.62,
-          "ema200": 68073.89,
-          "ma20": 67945.32,
+          "ema7": 66947.51,
+          "ema25": 67697.64,
+          "ema99": 67659.39,
+          "ema200": 68073.28,
+          "ma20": 67942.25,
           "bb": {
-            "upper": 69572.12,
-            "upper_mid": 68758.72,
-            "mid": 67945.32,
-            "lower_mid": 67131.91,
-            "lower": 66318.51,
-            "width": 4.7886,
-            "position": 0.0189
+            "upper": 69581.66,
+            "upper_mid": 68761.95,
+            "mid": 67942.25,
+            "lower_mid": 67122.55,
+            "lower": 66302.84,
+            "width": 4.8259,
+            "position": 0.0049
           },
           "oi_signal": {
-            "price_change": 0.12,
+            "price_change": 0.03,
             "oi_change_pct": -0.02,
-            "current_oi": 88532.416,
+            "current_oi": 88535.228,
             "oi_history": [
-              {
-                "timestamp": 1775020200000,
-                "open_oi": 90642.6,
-                "close_oi": 90468.29,
-                "oi_change": -174.31,
-                "oi_change_pct": -0.19,
-                "oi_acceleration": 0
-              },
               {
                 "timestamp": 1775020500000,
                 "open_oi": 90468.29,
                 "close_oi": 90448.2,
                 "oi_change": -20.09,
                 "oi_change_pct": -0.02,
-                "oi_acceleration": 0.17
+                "oi_acceleration": 0
               },
               {
                 "timestamp": 1775020800000,
@@ -74235,6 +74219,14 @@
                 "oi_change": -65.55,
                 "oi_change_pct": -0.07,
                 "oi_acceleration": -0.12
+              },
+              {
+                "timestamp": 1775106300000,
+                "open_oi": 88532.42,
+                "close_oi": 88535.23,
+                "oi_change": 2.81,
+                "oi_change_pct": 0.0,
+                "oi_acceleration": 0.08
               }
             ],
             "oi_momentum": {
@@ -74274,56 +74266,48 @@
               "volume": 7198.7
             },
             {
-              "close": 66380.1,
+              "close": 66318.8,
               "high": 66478.2,
-              "low": 66300.0,
-              "volume": 1015.12
+              "low": 66270.0,
+              "volume": 1429.34
             }
           ],
           "timestamp": 1775106000000
         },
         "2h": {
-          "close": 66380.0,
-          "rsi": 37.6,
-          "price_change_pct": -7.18,
-          "volume": 15605.9,
-          "volume_change_pct": -25.15,
-          "ma50": 67343.01,
+          "close": 66317.5,
+          "rsi": 37.1,
+          "price_change_pct": -7.27,
+          "volume": 15607.87,
+          "volume_change_pct": -24.94,
+          "ma50": 67341.76,
           "above_ma50": false,
-          "ema7": 67337.24,
-          "ema25": 67671.53,
-          "ema99": 68004.72,
-          "ema200": 68937.89,
-          "ma20": 67934.99,
+          "ema7": 67321.61,
+          "ema25": 67666.72,
+          "ema99": 68003.47,
+          "ema200": 68937.27,
+          "ma20": 67931.86,
           "bb": {
-            "upper": 69364.84,
-            "upper_mid": 68649.91,
-            "mid": 67934.99,
-            "lower_mid": 67220.06,
-            "lower": 66505.13,
-            "width": 4.2095,
-            "position": -0.0438
+            "upper": 69376.23,
+            "upper_mid": 68654.04,
+            "mid": 67931.86,
+            "lower_mid": 67209.68,
+            "lower": 66487.49,
+            "width": 4.2524,
+            "position": -0.0588
           },
           "oi_signal": {
-            "price_change": -0.24,
-            "oi_change_pct": 0.17,
-            "current_oi": 88532.416,
+            "price_change": -0.33,
+            "oi_change_pct": 0.18,
+            "current_oi": 88535.228,
             "oi_history": [
-              {
-                "timestamp": 1775020200000,
-                "open_oi": 90642.6,
-                "close_oi": 90468.29,
-                "oi_change": -174.31,
-                "oi_change_pct": -0.19,
-                "oi_acceleration": 0
-              },
               {
                 "timestamp": 1775020500000,
                 "open_oi": 90468.29,
                 "close_oi": 90448.2,
                 "oi_change": -20.09,
                 "oi_change_pct": -0.02,
-                "oi_acceleration": 0.17
+                "oi_acceleration": 0
               },
               {
                 "timestamp": 1775020800000,
@@ -76604,10 +76588,18 @@
                 "oi_change": -65.55,
                 "oi_change_pct": -0.07,
                 "oi_acceleration": -0.12
+              },
+              {
+                "timestamp": 1775106300000,
+                "open_oi": 88532.42,
+                "close_oi": 88535.23,
+                "oi_change": 2.81,
+                "oi_change_pct": 0.0,
+                "oi_acceleration": 0.08
               }
             ],
             "oi_momentum": {
-              "acceleration": 0.95,
+              "acceleration": 0.38,
               "state": "accelerating"
             },
             "status": "success"
@@ -76643,56 +76635,48 @@
               "volume": 17762.86
             },
             {
-              "close": 66380.0,
+              "close": 66317.5,
               "high": 66617.7,
               "low": 66171.8,
-              "volume": 8213.37
+              "volume": 8626.29
             }
           ],
           "timestamp": 1775102400000
         },
         "4h": {
-          "close": 66380.0,
-          "rsi": 40.1,
-          "price_change_pct": -2.42,
-          "volume": 33412.8,
-          "volume_change_pct": -17.21,
-          "ma50": 67889.75,
+          "close": 66317.5,
+          "rsi": 39.7,
+          "price_change_pct": -2.51,
+          "volume": 33414.73,
+          "volume_change_pct": -17.09,
+          "ma50": 67888.5,
           "above_ma50": false,
-          "ema7": 67434.93,
-          "ema25": 67568.21,
-          "ema99": 68641.73,
-          "ema200": 68964.83,
-          "ma20": 67557.54,
+          "ema7": 67419.31,
+          "ema25": 67563.4,
+          "ema99": 68640.48,
+          "ema200": 68964.21,
+          "ma20": 67554.41,
           "bb": {
-            "upper": 69120.13,
-            "upper_mid": 68338.83,
-            "mid": 67557.54,
-            "lower_mid": 66776.25,
-            "lower": 65994.95,
-            "width": 4.6259,
-            "position": 0.1232
+            "upper": 69127.13,
+            "upper_mid": 68340.77,
+            "mid": 67554.41,
+            "lower_mid": 66768.06,
+            "lower": 65981.7,
+            "width": 4.6562,
+            "position": 0.1068
           },
           "oi_signal": {
-            "price_change": -0.24,
-            "oi_change_pct": -0.6,
-            "current_oi": 88532.416,
+            "price_change": -0.33,
+            "oi_change_pct": -0.03,
+            "current_oi": 88535.228,
             "oi_history": [
-              {
-                "timestamp": 1775020200000,
-                "open_oi": 90642.6,
-                "close_oi": 90468.29,
-                "oi_change": -174.31,
-                "oi_change_pct": -0.19,
-                "oi_acceleration": 0
-              },
               {
                 "timestamp": 1775020500000,
                 "open_oi": 90468.29,
                 "close_oi": 90448.2,
                 "oi_change": -20.09,
                 "oi_change_pct": -0.02,
-                "oi_acceleration": 0.17
+                "oi_acceleration": 0
               },
               {
                 "timestamp": 1775020800000,
@@ -78973,11 +78957,19 @@
                 "oi_change": -65.55,
                 "oi_change_pct": -0.07,
                 "oi_acceleration": -0.12
+              },
+              {
+                "timestamp": 1775106300000,
+                "open_oi": 88532.42,
+                "close_oi": 88535.23,
+                "oi_change": 2.81,
+                "oi_change_pct": 0.0,
+                "oi_acceleration": 0.08
               }
             ],
             "oi_momentum": {
-              "acceleration": -0.03,
-              "state": "trending"
+              "acceleration": 1.0,
+              "state": "accelerating"
             },
             "status": "success"
           },
@@ -78990,7 +78982,7 @@
           "flags": {
             "rsi_oversold": false,
             "rsi_overbought": false,
-            "rsi_neutral": true,
+            "rsi_neutral": false,
             "near_upper_band": false,
             "near_lower_band": true,
             "price_above_ma50": false,
@@ -79012,56 +79004,48 @@
               "volume": 51050.57
             },
             {
-              "close": 66380.0,
+              "close": 66317.5,
               "high": 66617.7,
               "low": 66171.8,
-              "volume": 8221.69
+              "volume": 8626.29
             }
           ],
           "timestamp": 1775102400000
         },
         "12h": {
-          "close": 66376.5,
-          "rsi": 41.3,
-          "price_change_pct": -22.34,
-          "volume": 88541.43,
-          "volume_change_pct": -11.98,
-          "ma50": 69664.71,
+          "close": 66317.6,
+          "rsi": 41.1,
+          "price_change_pct": -22.41,
+          "volume": 88543.35,
+          "volume_change_pct": -11.94,
+          "ma50": 69663.53,
           "above_ma50": false,
-          "ema7": 67400.8,
-          "ema25": 68263.12,
-          "ema99": 70743.92,
-          "ema200": 74726.73,
-          "ma20": 68216.67,
+          "ema7": 67386.07,
+          "ema25": 68258.59,
+          "ema99": 70742.74,
+          "ema200": 74726.14,
+          "ma20": 68213.73,
           "bb": {
-            "upper": 72111.78,
-            "upper_mid": 70164.22,
-            "mid": 68216.67,
-            "lower_mid": 66269.12,
-            "lower": 64321.56,
-            "width": 11.4198,
-            "position": 0.2638
+            "upper": 72114.77,
+            "upper_mid": 70164.25,
+            "mid": 68213.73,
+            "lower_mid": 66263.2,
+            "lower": 64312.68,
+            "width": 11.4377,
+            "position": 0.257
           },
           "oi_signal": {
-            "price_change": -2.51,
-            "oi_change_pct": -2.11,
-            "current_oi": 88532.416,
+            "price_change": -2.6,
+            "oi_change_pct": -2.08,
+            "current_oi": 88535.228,
             "oi_history": [
-              {
-                "timestamp": 1775020200000,
-                "open_oi": 90642.6,
-                "close_oi": 90468.29,
-                "oi_change": -174.31,
-                "oi_change_pct": -0.19,
-                "oi_acceleration": 0
-              },
               {
                 "timestamp": 1775020500000,
                 "open_oi": 90468.29,
                 "close_oi": 90448.2,
                 "oi_change": -20.09,
                 "oi_change_pct": -0.02,
-                "oi_acceleration": 0.17
+                "oi_acceleration": 0
               },
               {
                 "timestamp": 1775020800000,
@@ -81342,6 +81326,14 @@
                 "oi_change": -65.55,
                 "oi_change_pct": -0.07,
                 "oi_acceleration": -0.12
+              },
+              {
+                "timestamp": 1775106300000,
+                "open_oi": 88532.42,
+                "close_oi": 88535.23,
+                "oi_change": 2.81,
+                "oi_change_pct": 0.0,
+                "oi_acceleration": 0.08
               }
             ],
             "oi_momentum": {
@@ -81381,56 +81373,48 @@
               "volume": 77027.64
             },
             {
-              "close": 66376.5,
+              "close": 66317.6,
               "high": 68639.1,
               "low": 66171.8,
-              "volume": 59269.73
+              "volume": 59673.48
             }
           ],
           "timestamp": 1775088000000
         },
         "1d": {
-          "close": 66380.0,
-          "rsi": 42.4,
-          "price_change_pct": -39.99,
-          "volume": 161644.16,
-          "volume_change_pct": -11.88,
-          "ma50": 68634.7,
+          "close": 66317.5,
+          "rsi": 42.2,
+          "price_change_pct": -40.05,
+          "volume": 161646.12,
+          "volume_change_pct": -11.85,
+          "ma50": 68633.45,
           "above_ma50": false,
-          "ema7": 67461.91,
-          "ema25": 68810.57,
-          "ema99": 76248.79,
-          "ema200": 85515.36,
-          "ma20": 69528.59,
+          "ema7": 67446.28,
+          "ema25": 68805.76,
+          "ema99": 76247.54,
+          "ema200": 85514.74,
+          "ma20": 69525.46,
           "bb": {
-            "upper": 74722.0,
-            "upper_mid": 72125.29,
-            "mid": 69528.59,
-            "lower_mid": 66931.89,
-            "lower": 64335.18,
-            "width": 14.9389,
-            "position": 0.1969
+            "upper": 74726.92,
+            "upper_mid": 72126.19,
+            "mid": 69525.46,
+            "lower_mid": 66924.74,
+            "lower": 64324.01,
+            "width": 14.9627,
+            "position": 0.1916
           },
           "oi_signal": {
-            "price_change": -2.51,
-            "oi_change_pct": -2.11,
-            "current_oi": 88532.416,
+            "price_change": -2.6,
+            "oi_change_pct": -2.08,
+            "current_oi": 88535.228,
             "oi_history": [
-              {
-                "timestamp": 1775020200000,
-                "open_oi": 90642.6,
-                "close_oi": 90468.29,
-                "oi_change": -174.31,
-                "oi_change_pct": -0.19,
-                "oi_acceleration": 0
-              },
               {
                 "timestamp": 1775020500000,
                 "open_oi": 90468.29,
                 "close_oi": 90448.2,
                 "oi_change": -20.09,
                 "oi_change_pct": -0.02,
-                "oi_acceleration": 0.17
+                "oi_acceleration": 0
               },
               {
                 "timestamp": 1775020800000,
@@ -83711,6 +83695,14 @@
                 "oi_change": -65.55,
                 "oi_change_pct": -0.07,
                 "oi_acceleration": -0.12
+              },
+              {
+                "timestamp": 1775106300000,
+                "open_oi": 88532.42,
+                "close_oi": 88535.23,
+                "oi_change": 2.81,
+                "oi_change_pct": 0.0,
+                "oi_acceleration": 0.08
               }
             ],
             "oi_momentum": {
@@ -83750,56 +83742,48 @@
               "volume": 157276.22
             },
             {
-              "close": 66380.0,
+              "close": 66317.5,
               "high": 68639.1,
               "low": 66171.8,
-              "volume": 59263.93
+              "volume": 59676.86
             }
           ],
           "timestamp": 1775088000000
         },
         "2d": {
-          "close": 66380.0,
-          "rsi": 41.5,
-          "price_change_pct": -31.15,
-          "volume": 337689.3,
-          "volume_change_pct": -23.91,
-          "ma50": 76982.74,
+          "close": 66317.5,
+          "rsi": 41.4,
+          "price_change_pct": -31.21,
+          "volume": 337691.25,
+          "volume_change_pct": -23.9,
+          "ma50": 76981.49,
           "above_ma50": false,
-          "ema7": 68018.57,
-          "ema25": 70616.04,
-          "ema99": 84653.56,
-          "ema200": 91569.83,
-          "ma20": 68726.67,
+          "ema7": 68002.94,
+          "ema25": 70611.24,
+          "ema99": 84652.31,
+          "ema200": 91569.21,
+          "ma20": 68723.54,
           "bb": {
-            "upper": 73810.33,
-            "upper_mid": 71268.5,
-            "mid": 68726.67,
-            "lower_mid": 66184.83,
-            "lower": 63643.0,
-            "width": 14.7939,
-            "position": 0.2692
+            "upper": 73813.35,
+            "upper_mid": 71268.44,
+            "mid": 68723.54,
+            "lower_mid": 66178.64,
+            "lower": 63633.73,
+            "width": 14.8124,
+            "position": 0.2636
           },
           "oi_signal": {
-            "price_change": -2.73,
+            "price_change": -2.82,
             "oi_change_pct": -0.02,
-            "current_oi": 88532.416,
+            "current_oi": 88535.228,
             "oi_history": [
-              {
-                "timestamp": 1775020200000,
-                "open_oi": 90642.6,
-                "close_oi": 90468.29,
-                "oi_change": -174.31,
-                "oi_change_pct": -0.19,
-                "oi_acceleration": 0
-              },
               {
                 "timestamp": 1775020500000,
                 "open_oi": 90468.29,
                 "close_oi": 90448.2,
                 "oi_change": -20.09,
                 "oi_change_pct": -0.02,
-                "oi_acceleration": 0.17
+                "oi_acceleration": 0
               },
               {
                 "timestamp": 1775020800000,
@@ -86080,6 +86064,14 @@
                 "oi_change": -65.55,
                 "oi_change_pct": -0.07,
                 "oi_acceleration": -0.12
+              },
+              {
+                "timestamp": 1775106300000,
+                "open_oi": 88532.42,
+                "close_oi": 88535.23,
+                "oi_change": 2.81,
+                "oi_change_pct": 0.0,
+                "oi_acceleration": 0.08
               }
             ],
             "oi_momentum": {
@@ -86119,56 +86111,48 @@
               "volume": 430392.15
             },
             {
-              "close": 66380.0,
+              "close": 66317.5,
               "high": 69288.0,
               "low": 66171.8,
-              "volume": 216540.15
+              "volume": 216949.86
             }
           ],
           "timestamp": 1775001600000
         },
         "1w": {
-          "close": 66376.6,
-          "rsi": 32.4,
-          "price_change_pct": 43.08,
-          "volume": 2277947.86,
+          "close": 66317.5,
+          "rsi": 32.3,
+          "price_change_pct": 42.95,
+          "volume": 2277949.78,
           "volume_change_pct": 41.74,
-          "ma50": 97562.19,
+          "ma50": 97561.0,
           "above_ma50": false,
-          "ema7": 68911.27,
-          "ema25": 81689.1,
-          "ema99": 83298.22,
-          "ema200": 70732.19,
-          "ma20": 79155.85,
+          "ema7": 68896.5,
+          "ema25": 81684.56,
+          "ema99": 83297.03,
+          "ema200": 70731.6,
+          "ma20": 79152.9,
           "bb": {
-            "upper": 101143.06,
-            "upper_mid": 90149.46,
-            "mid": 79155.85,
-            "lower_mid": 68162.24,
-            "lower": 57168.64,
-            "width": 55.5542,
-            "position": 0.2094
+            "upper": 101147.36,
+            "upper_mid": 90150.13,
+            "mid": 79152.9,
+            "lower_mid": 68155.66,
+            "lower": 57158.43,
+            "width": 55.5746,
+            "position": 0.2082
           },
           "oi_signal": {
-            "price_change": 0.6,
-            "oi_change_pct": -2.33,
-            "current_oi": 88532.416,
+            "price_change": 0.51,
+            "oi_change_pct": -2.14,
+            "current_oi": 88535.228,
             "oi_history": [
-              {
-                "timestamp": 1775020200000,
-                "open_oi": 90642.6,
-                "close_oi": 90468.29,
-                "oi_change": -174.31,
-                "oi_change_pct": -0.19,
-                "oi_acceleration": 0
-              },
               {
                 "timestamp": 1775020500000,
                 "open_oi": 90468.29,
                 "close_oi": 90448.2,
                 "oi_change": -20.09,
                 "oi_change_pct": -0.02,
-                "oi_acceleration": 0.17
+                "oi_acceleration": 0
               },
               {
                 "timestamp": 1775020800000,
@@ -88449,6 +88433,14 @@
                 "oi_change": -65.55,
                 "oi_change_pct": -0.07,
                 "oi_acceleration": -0.12
+              },
+              {
+                "timestamp": 1775106300000,
+                "open_oi": 88532.42,
+                "close_oi": 88535.23,
+                "oi_change": 2.81,
+                "oi_change_pct": 0.0,
+                "oi_acceleration": 0.08
               }
             ],
             "oi_momentum": {
@@ -88488,56 +88480,48 @@
               "volume": 1252284.03
             },
             {
-              "close": 66376.6,
+              "close": 66317.5,
               "high": 69288.0,
               "low": 65754.2,
-              "volume": 646940.36
+              "volume": 647345.23
             }
           ],
           "timestamp": 1774828800000
         },
         "1M": {
-          "close": 66380.1,
+          "close": 66317.6,
           "rsi": 43.5,
-          "price_change_pct": 725.42,
-          "volume": 9566482.52,
+          "price_change_pct": 724.64,
+          "volume": 9566487.64,
           "volume_change_pct": -35.34,
-          "ma50": 58080.98,
+          "ma50": 58079.73,
           "above_ma50": true,
-          "ema7": 78285.97,
-          "ema25": 79459.88,
+          "ema7": 78270.34,
+          "ema25": 79455.07,
           "ema99": null,
           "ema200": null,
-          "ma20": 90212.76,
+          "ma20": 90209.63,
           "bb": {
-            "upper": 124431.77,
-            "upper_mid": 107322.26,
-            "mid": 90212.76,
-            "lower_mid": 73103.25,
-            "lower": 55993.74,
-            "width": 75.8629,
-            "position": 0.1518
+            "upper": 124437.81,
+            "upper_mid": 107323.72,
+            "mid": 90209.63,
+            "lower_mid": 73095.54,
+            "lower": 55981.45,
+            "width": 75.8859,
+            "position": 0.151
           },
           "oi_signal": {
-            "price_change": -2.73,
-            "oi_change_pct": -2.33,
-            "current_oi": 88532.416,
+            "price_change": -2.82,
+            "oi_change_pct": -2.14,
+            "current_oi": 88535.228,
             "oi_history": [
-              {
-                "timestamp": 1775020200000,
-                "open_oi": 90642.6,
-                "close_oi": 90468.29,
-                "oi_change": -174.31,
-                "oi_change_pct": -0.19,
-                "oi_acceleration": 0
-              },
               {
                 "timestamp": 1775020500000,
                 "open_oi": 90468.29,
                 "close_oi": 90448.2,
                 "oi_change": -20.09,
                 "oi_change_pct": -0.02,
-                "oi_acceleration": 0.17
+                "oi_acceleration": 0
               },
               {
                 "timestamp": 1775020800000,
@@ -90818,6 +90802,14 @@
                 "oi_change": -65.55,
                 "oi_change_pct": -0.07,
                 "oi_acceleration": -0.12
+              },
+              {
+                "timestamp": 1775106300000,
+                "open_oi": 88532.42,
+                "close_oi": 88535.23,
+                "oi_change": 2.81,
+                "oi_change_pct": 0.0,
+                "oi_acceleration": 0.08
               }
             ],
             "oi_momentum": {
@@ -90857,16 +90849,18 @@
               "volume": 6202606.69
             },
             {
-              "close": 66380.1,
+              "close": 66317.6,
               "high": 69288.0,
               "low": 66171.8,
-              "volume": 216540.61
+              "volume": 216949.7
             }
           ],
           "timestamp": 1775001600000
         }
       },
-      "warnings": []
+      "warnings": [
+        "futures_sell_dominant"
+      ]
     }
   }
 }
